@@ -1,0 +1,1066 @@
+Simulator report for bitcoin_miner
+Mon Apr 13 12:26:18 2015
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 200.0 ns     ;
+; Simulation Netlist Size     ; 549 nodes    ;
+; Simulation Coverage         ;      34.79 % ;
+; Total Number of Transitions ; 1751         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Functional ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      34.79 % ;
+; Total nodes checked                                 ; 549          ;
+; Total output ports checked                          ; 549          ;
+; Total output ports with complete 1/0-value coverage ; 191          ;
+; Total output ports with no 1/0-value coverage       ; 357          ;
+; Total output ports with no 1-value coverage         ; 357          ;
+; Total output ports with no 0-value coverage         ; 358          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                      ;
++-------------------------------------------------------+-------------------------------------------------------+------------------+
+; Node Name                                             ; Output Port Name                                      ; Output Port Type ;
++-------------------------------------------------------+-------------------------------------------------------+------------------+
+; |bitcoin_miner|sel[0]                                 ; |bitcoin_miner|sel[0]                                 ; out              ;
+; |bitcoin_miner|sel[1]                                 ; |bitcoin_miner|sel[1]                                 ; out              ;
+; |bitcoin_miner|sel[2]                                 ; |bitcoin_miner|sel[2]                                 ; out              ;
+; |bitcoin_miner|sel[3]                                 ; |bitcoin_miner|sel[3]                                 ; out              ;
+; |bitcoin_miner|sel[4]                                 ; |bitcoin_miner|sel[4]                                 ; out              ;
+; |bitcoin_miner|out[0]                                 ; |bitcoin_miner|out[0]                                 ; pin_out          ;
+; |bitcoin_miner|out[1]                                 ; |bitcoin_miner|out[1]                                 ; pin_out          ;
+; |bitcoin_miner|out[2]                                 ; |bitcoin_miner|out[2]                                 ; pin_out          ;
+; |bitcoin_miner|out[3]                                 ; |bitcoin_miner|out[3]                                 ; pin_out          ;
+; |bitcoin_miner|out[4]                                 ; |bitcoin_miner|out[4]                                 ; pin_out          ;
+; |bitcoin_miner|out[5]                                 ; |bitcoin_miner|out[5]                                 ; pin_out          ;
+; |bitcoin_miner|out[6]                                 ; |bitcoin_miner|out[6]                                 ; pin_out          ;
+; |bitcoin_miner|out[7]                                 ; |bitcoin_miner|out[7]                                 ; pin_out          ;
+; |bitcoin_miner|out[8]                                 ; |bitcoin_miner|out[8]                                 ; pin_out          ;
+; |bitcoin_miner|out[9]                                 ; |bitcoin_miner|out[9]                                 ; pin_out          ;
+; |bitcoin_miner|out[10]                                ; |bitcoin_miner|out[10]                                ; pin_out          ;
+; |bitcoin_miner|out[11]                                ; |bitcoin_miner|out[11]                                ; pin_out          ;
+; |bitcoin_miner|out[12]                                ; |bitcoin_miner|out[12]                                ; pin_out          ;
+; |bitcoin_miner|out[13]                                ; |bitcoin_miner|out[13]                                ; pin_out          ;
+; |bitcoin_miner|out[14]                                ; |bitcoin_miner|out[14]                                ; pin_out          ;
+; |bitcoin_miner|out[15]                                ; |bitcoin_miner|out[15]                                ; pin_out          ;
+; |bitcoin_miner|out[16]                                ; |bitcoin_miner|out[16]                                ; pin_out          ;
+; |bitcoin_miner|out[17]                                ; |bitcoin_miner|out[17]                                ; pin_out          ;
+; |bitcoin_miner|out[18]                                ; |bitcoin_miner|out[18]                                ; pin_out          ;
+; |bitcoin_miner|out[19]                                ; |bitcoin_miner|out[19]                                ; pin_out          ;
+; |bitcoin_miner|out[20]                                ; |bitcoin_miner|out[20]                                ; pin_out          ;
+; |bitcoin_miner|out[21]                                ; |bitcoin_miner|out[21]                                ; pin_out          ;
+; |bitcoin_miner|out[25]                                ; |bitcoin_miner|out[25]                                ; pin_out          ;
+; |bitcoin_miner|out[26]                                ; |bitcoin_miner|out[26]                                ; pin_out          ;
+; |bitcoin_miner|out[29]                                ; |bitcoin_miner|out[29]                                ; pin_out          ;
+; |bitcoin_miner|out[30]                                ; |bitcoin_miner|out[30]                                ; pin_out          ;
+; |bitcoin_miner|out[31]                                ; |bitcoin_miner|out[31]                                ; pin_out          ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[31].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[31].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[31].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[31].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[30].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[30].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[30].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[30].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[29].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[29].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[29].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[29].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[26].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[26].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[26].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[26].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[25].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[25].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[25].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[25].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[21].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[21].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[21].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[21].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[20].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[20].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[20].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[20].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[19].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[19].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[19].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[19].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[18].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[18].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[18].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[18].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[18].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[18].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[17].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[17].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[17].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[17].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[17].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[17].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[16].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[16].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[16].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[16].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[15].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[15].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[15].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[15].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[14].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[14].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[14].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[14].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[13].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[13].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[13].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[13].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[12].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[12].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[12].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[12].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[11].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[11].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[11].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[11].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[10].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[10].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[10].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[10].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[9].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[9].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[9].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[9].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[8].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[8].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[8].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[8].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[7].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[7].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[7].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[7].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[6].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[6].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[6].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[6].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[5].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[5].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[5].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[5].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[4].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[4].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[4].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[4].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[4].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[4].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[3].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[3].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[3].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[3].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[3].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[3].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[2].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[2].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[2].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[2].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[1].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[1].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[1].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[1].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[1].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[1].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[0].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[0].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[0].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[0].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[31].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[31].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[31].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[31].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[30].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[30].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[30].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[30].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[29].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[29].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[29].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[29].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[28].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[28].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[28].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[28].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[28].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[28].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[27].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[27].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[27].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[27].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[27].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[27].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[26].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[26].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[26].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[26].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[26].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[26].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[25].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[25].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[25].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[25].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[25].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[25].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[24].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[24].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[24].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[24].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[23].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[23].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[23].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[23].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[22].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[22].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[22].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[22].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[21].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[21].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[21].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[21].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[20].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[20].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[20].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[20].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[19].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[19].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[19].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[19].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[18].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[18].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[18].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[18].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[17].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[17].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[17].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[17].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[4].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[4].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[4].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[4].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[3].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[3].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[3].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[3].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[2].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[2].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[2].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[2].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[1].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[1].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[1].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[1].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[0].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[0].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[0].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[0].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[31].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[31].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[31].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[31].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[31].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[31].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[30].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[30].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[30].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[30].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[30].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[30].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[29].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[29].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[29].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[29].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[29].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[29].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[28].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[28].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[28].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[28].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[27].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[27].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[27].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[27].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[26].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[26].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[26].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[26].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[25].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[25].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[25].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[25].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[4].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[4].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[4].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[4].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[3].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[3].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[3].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[3].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[2].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[2].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[2].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[2].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[1].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[1].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[1].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[1].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[0].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[0].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[0].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[0].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[0].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[0].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[31].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[31].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[31].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[31].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[31].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[31].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[30].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[30].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[30].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[30].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[29].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[29].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[29].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[29].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[4].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[4].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[4].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[4].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[3].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[3].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[3].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[3].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[2].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[2].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[2].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[2].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[1].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[1].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[1].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[1].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[1].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[1].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[0].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[0].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[0].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[0].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:m0|out~1          ; |bitcoin_miner|rotate_r:myr|usr_mux:m0|out~1          ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:m0|out            ; |bitcoin_miner|rotate_r:myr|usr_mux:m0|out            ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[4].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[4].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[4].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[4].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[3].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[3].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[3].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[3].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[1].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[1].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[1].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[1].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[0].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[0].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[0].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[0].m|out~1  ; out0             ;
++-------------------------------------------------------+-------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                         ;
++-------------------------------------------------------+-------------------------------------------------------+------------------+
+; Node Name                                             ; Output Port Name                                      ; Output Port Type ;
++-------------------------------------------------------+-------------------------------------------------------+------------------+
+; |bitcoin_miner|in[0]                                  ; |bitcoin_miner|in[0]                                  ; out              ;
+; |bitcoin_miner|in[1]                                  ; |bitcoin_miner|in[1]                                  ; out              ;
+; |bitcoin_miner|in[2]                                  ; |bitcoin_miner|in[2]                                  ; out              ;
+; |bitcoin_miner|in[3]                                  ; |bitcoin_miner|in[3]                                  ; out              ;
+; |bitcoin_miner|in[4]                                  ; |bitcoin_miner|in[4]                                  ; out              ;
+; |bitcoin_miner|in[5]                                  ; |bitcoin_miner|in[5]                                  ; out              ;
+; |bitcoin_miner|in[6]                                  ; |bitcoin_miner|in[6]                                  ; out              ;
+; |bitcoin_miner|in[7]                                  ; |bitcoin_miner|in[7]                                  ; out              ;
+; |bitcoin_miner|in[8]                                  ; |bitcoin_miner|in[8]                                  ; out              ;
+; |bitcoin_miner|in[9]                                  ; |bitcoin_miner|in[9]                                  ; out              ;
+; |bitcoin_miner|in[10]                                 ; |bitcoin_miner|in[10]                                 ; out              ;
+; |bitcoin_miner|in[11]                                 ; |bitcoin_miner|in[11]                                 ; out              ;
+; |bitcoin_miner|in[12]                                 ; |bitcoin_miner|in[12]                                 ; out              ;
+; |bitcoin_miner|in[13]                                 ; |bitcoin_miner|in[13]                                 ; out              ;
+; |bitcoin_miner|in[14]                                 ; |bitcoin_miner|in[14]                                 ; out              ;
+; |bitcoin_miner|in[15]                                 ; |bitcoin_miner|in[15]                                 ; out              ;
+; |bitcoin_miner|in[16]                                 ; |bitcoin_miner|in[16]                                 ; out              ;
+; |bitcoin_miner|in[17]                                 ; |bitcoin_miner|in[17]                                 ; out              ;
+; |bitcoin_miner|in[18]                                 ; |bitcoin_miner|in[18]                                 ; out              ;
+; |bitcoin_miner|in[19]                                 ; |bitcoin_miner|in[19]                                 ; out              ;
+; |bitcoin_miner|in[20]                                 ; |bitcoin_miner|in[20]                                 ; out              ;
+; |bitcoin_miner|in[21]                                 ; |bitcoin_miner|in[21]                                 ; out              ;
+; |bitcoin_miner|in[22]                                 ; |bitcoin_miner|in[22]                                 ; out              ;
+; |bitcoin_miner|in[23]                                 ; |bitcoin_miner|in[23]                                 ; out              ;
+; |bitcoin_miner|in[24]                                 ; |bitcoin_miner|in[24]                                 ; out              ;
+; |bitcoin_miner|in[25]                                 ; |bitcoin_miner|in[25]                                 ; out              ;
+; |bitcoin_miner|in[26]                                 ; |bitcoin_miner|in[26]                                 ; out              ;
+; |bitcoin_miner|in[27]                                 ; |bitcoin_miner|in[27]                                 ; out              ;
+; |bitcoin_miner|in[28]                                 ; |bitcoin_miner|in[28]                                 ; out              ;
+; |bitcoin_miner|in[29]                                 ; |bitcoin_miner|in[29]                                 ; out              ;
+; |bitcoin_miner|in[30]                                 ; |bitcoin_miner|in[30]                                 ; out              ;
+; |bitcoin_miner|in[31]                                 ; |bitcoin_miner|in[31]                                 ; out              ;
+; |bitcoin_miner|out[22]                                ; |bitcoin_miner|out[22]                                ; pin_out          ;
+; |bitcoin_miner|out[23]                                ; |bitcoin_miner|out[23]                                ; pin_out          ;
+; |bitcoin_miner|out[24]                                ; |bitcoin_miner|out[24]                                ; pin_out          ;
+; |bitcoin_miner|out[27]                                ; |bitcoin_miner|out[27]                                ; pin_out          ;
+; |bitcoin_miner|out[28]                                ; |bitcoin_miner|out[28]                                ; pin_out          ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[31].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[31].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[30].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[30].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[29].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[29].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[26].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[26].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[25].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[25].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[21].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[21].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[20].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[20].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[19].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[19].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[16].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[16].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[15].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[15].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[14].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[14].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[13].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[13].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[12].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[12].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[11].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[11].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[10].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[10].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[9].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[9].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[8].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[8].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[7].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[7].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[6].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[6].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[5].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[5].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[0].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[0].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[31].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[31].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[30].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[30].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[29].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[29].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[24].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[24].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[23].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[23].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[22].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[22].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[21].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[21].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[20].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[20].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[19].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[19].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[18].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[18].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[17].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[17].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[4].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[4].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[3].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[3].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[2].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[2].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[1].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[1].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[0].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[0].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[28].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[28].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[27].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[27].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[26].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[26].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[25].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[25].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[24].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[24].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[24].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[24].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[24].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[24].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[23].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[23].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[23].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[23].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[23].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[23].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[22].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[22].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[22].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[22].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[22].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[22].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[21].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[21].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[21].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[21].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[21].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[21].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[20].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[20].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[20].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[20].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[20].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[20].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[19].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[19].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[19].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[19].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[19].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[19].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[18].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[18].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[18].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[18].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[18].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[18].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[17].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[17].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[17].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[17].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[17].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[17].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[16].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[16].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[16].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[16].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[16].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[16].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[15].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[15].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[15].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[15].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[15].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[15].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[14].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[14].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[14].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[14].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[14].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[14].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[13].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[13].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[13].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[13].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[13].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[13].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[12].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[12].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[12].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[12].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[12].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[12].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[11].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[11].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[11].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[11].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[11].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[11].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[10].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[10].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[10].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[10].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[10].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[10].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[9].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[9].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[9].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[9].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[9].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[9].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[8].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[8].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[8].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[8].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[8].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[8].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[7].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[7].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[7].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[7].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[7].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[7].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[6].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[6].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[6].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[6].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[6].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[6].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[5].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[5].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[5].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[5].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[5].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[5].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[4].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[4].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[3].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[3].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[2].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[2].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[1].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[1].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[30].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[30].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[29].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[29].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[4].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[4].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[3].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[3].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[2].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[2].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[0].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[0].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:m0|out~0          ; |bitcoin_miner|rotate_r:myr|usr_mux:m0|out~0          ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[30].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[30].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[30].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[30].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[30].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[30].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[29].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[29].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[29].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[29].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[29].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[29].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[28].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[28].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[28].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[28].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[28].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[28].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[27].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[27].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[27].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[27].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[27].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[27].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[26].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[26].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[26].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[26].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[26].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[26].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[25].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[25].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[25].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[25].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[25].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[25].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[24].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[24].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[24].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[24].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[24].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[24].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[23].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[23].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[23].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[23].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[23].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[23].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[22].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[22].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[22].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[22].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[22].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[22].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[21].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[21].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[21].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[21].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[21].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[21].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[20].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[20].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[20].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[20].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[20].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[20].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[19].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[19].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[19].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[19].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[19].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[19].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[18].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[18].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[18].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[18].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[18].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[18].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[17].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[17].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[17].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[17].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[17].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[17].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[16].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[16].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[16].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[16].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[16].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[16].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[15].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[15].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[15].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[15].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[15].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[15].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[14].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[14].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[14].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[14].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[14].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[14].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[13].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[13].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[13].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[13].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[13].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[13].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[12].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[12].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[12].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[12].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[12].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[12].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[11].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[11].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[11].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[11].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[11].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[11].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[10].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[10].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[10].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[10].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[10].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[10].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[9].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[9].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[9].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[9].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[9].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[9].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[8].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[8].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[8].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[8].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[8].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[8].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[7].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[7].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[7].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[7].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[7].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[7].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[6].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[6].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[6].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[6].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[6].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[6].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[5].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[5].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[5].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[5].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[5].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[5].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[4].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[4].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[3].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[3].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[2].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[2].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[2].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[2].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[2].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[2].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[1].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[1].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[0].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[0].m|out    ; out0             ;
++-------------------------------------------------------+-------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                         ;
++-------------------------------------------------------+-------------------------------------------------------+------------------+
+; Node Name                                             ; Output Port Name                                      ; Output Port Type ;
++-------------------------------------------------------+-------------------------------------------------------+------------------+
+; |bitcoin_miner|in[0]                                  ; |bitcoin_miner|in[0]                                  ; out              ;
+; |bitcoin_miner|in[1]                                  ; |bitcoin_miner|in[1]                                  ; out              ;
+; |bitcoin_miner|in[2]                                  ; |bitcoin_miner|in[2]                                  ; out              ;
+; |bitcoin_miner|in[3]                                  ; |bitcoin_miner|in[3]                                  ; out              ;
+; |bitcoin_miner|in[4]                                  ; |bitcoin_miner|in[4]                                  ; out              ;
+; |bitcoin_miner|in[5]                                  ; |bitcoin_miner|in[5]                                  ; out              ;
+; |bitcoin_miner|in[6]                                  ; |bitcoin_miner|in[6]                                  ; out              ;
+; |bitcoin_miner|in[7]                                  ; |bitcoin_miner|in[7]                                  ; out              ;
+; |bitcoin_miner|in[8]                                  ; |bitcoin_miner|in[8]                                  ; out              ;
+; |bitcoin_miner|in[9]                                  ; |bitcoin_miner|in[9]                                  ; out              ;
+; |bitcoin_miner|in[10]                                 ; |bitcoin_miner|in[10]                                 ; out              ;
+; |bitcoin_miner|in[11]                                 ; |bitcoin_miner|in[11]                                 ; out              ;
+; |bitcoin_miner|in[12]                                 ; |bitcoin_miner|in[12]                                 ; out              ;
+; |bitcoin_miner|in[13]                                 ; |bitcoin_miner|in[13]                                 ; out              ;
+; |bitcoin_miner|in[14]                                 ; |bitcoin_miner|in[14]                                 ; out              ;
+; |bitcoin_miner|in[15]                                 ; |bitcoin_miner|in[15]                                 ; out              ;
+; |bitcoin_miner|in[16]                                 ; |bitcoin_miner|in[16]                                 ; out              ;
+; |bitcoin_miner|in[17]                                 ; |bitcoin_miner|in[17]                                 ; out              ;
+; |bitcoin_miner|in[18]                                 ; |bitcoin_miner|in[18]                                 ; out              ;
+; |bitcoin_miner|in[19]                                 ; |bitcoin_miner|in[19]                                 ; out              ;
+; |bitcoin_miner|in[20]                                 ; |bitcoin_miner|in[20]                                 ; out              ;
+; |bitcoin_miner|in[21]                                 ; |bitcoin_miner|in[21]                                 ; out              ;
+; |bitcoin_miner|in[22]                                 ; |bitcoin_miner|in[22]                                 ; out              ;
+; |bitcoin_miner|in[23]                                 ; |bitcoin_miner|in[23]                                 ; out              ;
+; |bitcoin_miner|in[24]                                 ; |bitcoin_miner|in[24]                                 ; out              ;
+; |bitcoin_miner|in[25]                                 ; |bitcoin_miner|in[25]                                 ; out              ;
+; |bitcoin_miner|in[26]                                 ; |bitcoin_miner|in[26]                                 ; out              ;
+; |bitcoin_miner|in[27]                                 ; |bitcoin_miner|in[27]                                 ; out              ;
+; |bitcoin_miner|in[28]                                 ; |bitcoin_miner|in[28]                                 ; out              ;
+; |bitcoin_miner|in[29]                                 ; |bitcoin_miner|in[29]                                 ; out              ;
+; |bitcoin_miner|in[30]                                 ; |bitcoin_miner|in[30]                                 ; out              ;
+; |bitcoin_miner|in[31]                                 ; |bitcoin_miner|in[31]                                 ; out              ;
+; |bitcoin_miner|out[22]                                ; |bitcoin_miner|out[22]                                ; pin_out          ;
+; |bitcoin_miner|out[23]                                ; |bitcoin_miner|out[23]                                ; pin_out          ;
+; |bitcoin_miner|out[24]                                ; |bitcoin_miner|out[24]                                ; pin_out          ;
+; |bitcoin_miner|out[27]                                ; |bitcoin_miner|out[27]                                ; pin_out          ;
+; |bitcoin_miner|out[28]                                ; |bitcoin_miner|out[28]                                ; pin_out          ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[31].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[31].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[30].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[30].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[29].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[29].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[26].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[26].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[25].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[25].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[21].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[21].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[20].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[20].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[19].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[19].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[16].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[16].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[15].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[15].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[14].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[14].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[13].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[13].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[12].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[12].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[11].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[11].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[10].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[10].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[9].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[9].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[8].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[8].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[7].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[7].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[6].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[6].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[5].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[5].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[2].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[2].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[0].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[0].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[31].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[31].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[30].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[30].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[29].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[29].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[24].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[24].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[23].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[23].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[22].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[22].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[21].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[21].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[20].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[20].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[19].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[19].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[18].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[18].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[17].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[17].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[4].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[4].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[3].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[3].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[2].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[2].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[1].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[1].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[0].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[0].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[28].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop5[28].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[27].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[27].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[26].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[26].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[25].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[25].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[24].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[24].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[24].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[24].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[24].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[24].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[23].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[23].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[23].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[23].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[23].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[23].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[22].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[22].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[22].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[22].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[22].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[22].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[21].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[21].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[21].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[21].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[21].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[21].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[20].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[20].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[20].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[20].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[20].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[20].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[19].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[19].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[19].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[19].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[19].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[19].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[18].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[18].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[18].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[18].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[18].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[18].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[17].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[17].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[17].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[17].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[17].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[17].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[16].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[16].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[16].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[16].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[16].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[16].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[15].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[15].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[15].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[15].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[15].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[15].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[14].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[14].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[14].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[14].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[14].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[14].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[13].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[13].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[13].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[13].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[13].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[13].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[12].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[12].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[12].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[12].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[12].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[12].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[11].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[11].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[11].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[11].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[11].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[11].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[10].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[10].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[10].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[10].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[10].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[10].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[9].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[9].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[9].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[9].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[9].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[9].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[8].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[8].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[8].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[8].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[8].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[8].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[7].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[7].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[7].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[7].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[7].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[7].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[6].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[6].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[6].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[6].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[6].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[6].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[5].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[5].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[5].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[5].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[5].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[5].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[4].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[4].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[3].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[3].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[2].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[2].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[1].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop4[1].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[30].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[30].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[29].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[29].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[4].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[4].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[3].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[3].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[2].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[2].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[0].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[0].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:m0|out~0          ; |bitcoin_miner|rotate_r:myr|usr_mux:m0|out~0          ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[30].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[30].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[30].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[30].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[30].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[30].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[29].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[29].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[29].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[29].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[29].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[29].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[28].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[28].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[28].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[28].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[28].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[28].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[27].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[27].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[27].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[27].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[27].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[27].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[26].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[26].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[26].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[26].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[26].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[26].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[25].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[25].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[25].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[25].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[25].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[25].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[24].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[24].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[24].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[24].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[24].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[24].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[23].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[23].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[23].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[23].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[23].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[23].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[22].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[22].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[22].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[22].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[22].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[22].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[21].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[21].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[21].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[21].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[21].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[21].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[20].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[20].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[20].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[20].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[20].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[20].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[19].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[19].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[19].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[19].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[19].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[19].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[18].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[18].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[18].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[18].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[18].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[18].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[17].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[17].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[17].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[17].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[17].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[17].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[16].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[16].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[16].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[16].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[16].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[16].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[15].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[15].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[15].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[15].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[15].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[15].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[14].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[14].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[14].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[14].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[14].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[14].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[13].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[13].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[13].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[13].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[13].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[13].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[12].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[12].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[12].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[12].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[12].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[12].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[11].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[11].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[11].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[11].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[11].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[11].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[10].m|out~0 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[10].m|out~0 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[10].m|out~1 ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[10].m|out~1 ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[10].m|out   ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[10].m|out   ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[9].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[9].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[9].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[9].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[9].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[9].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[8].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[8].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[8].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[8].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[8].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[8].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[7].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[7].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[7].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[7].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[7].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[7].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[6].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[6].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[6].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[6].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[6].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[6].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[5].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[5].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[5].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[5].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[5].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[5].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[4].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[4].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[3].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[3].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[2].m|out~0  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[2].m|out~0  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[2].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[2].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[2].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[2].m|out    ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[1].m|out~1  ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[1].m|out~1  ; out0             ;
+; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[0].m|out    ; |bitcoin_miner|rotate_r:myr|usr_mux:loop1[0].m|out    ; out0             ;
++-------------------------------------------------------+-------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Mon Apr 13 12:26:18 2015
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off bitcoin_miner -c bitcoin_miner
+Info: Using vector source file "C:/Users/Christopher/Desktop/FinalProject/bitcoin_miner.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      34.79 %
+Info: Number of transitions in simulation is 1751
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 154 megabytes
+    Info: Processing ended: Mon Apr 13 12:26:18 2015
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+

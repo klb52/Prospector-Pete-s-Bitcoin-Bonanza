@@ -1,0 +1,1424 @@
+|bitcoin_miner
+in[0] => in[0]~31.IN1
+in[1] => in[1]~30.IN1
+in[2] => in[2]~29.IN1
+in[3] => in[3]~28.IN1
+in[4] => in[4]~27.IN1
+in[5] => in[5]~26.IN1
+in[6] => in[6]~25.IN1
+in[7] => in[7]~24.IN1
+in[8] => in[8]~23.IN1
+in[9] => in[9]~22.IN1
+in[10] => in[10]~21.IN1
+in[11] => in[11]~20.IN1
+in[12] => in[12]~19.IN1
+in[13] => in[13]~18.IN1
+in[14] => in[14]~17.IN1
+in[15] => in[15]~16.IN1
+in[16] => in[16]~15.IN1
+in[17] => in[17]~14.IN1
+in[18] => in[18]~13.IN1
+in[19] => in[19]~12.IN1
+in[20] => in[20]~11.IN1
+in[21] => in[21]~10.IN1
+in[22] => in[22]~9.IN1
+in[23] => in[23]~8.IN1
+in[24] => in[24]~7.IN1
+in[25] => in[25]~6.IN1
+in[26] => in[26]~5.IN1
+in[27] => in[27]~4.IN1
+in[28] => in[28]~3.IN1
+in[29] => in[29]~2.IN1
+in[30] => in[30]~1.IN1
+in[31] => in[31]~0.IN1
+sel[0] => sel[0]~4.IN1
+sel[1] => sel[1]~3.IN1
+sel[2] => sel[2]~2.IN1
+sel[3] => sel[3]~1.IN1
+sel[4] => sel[4]~0.IN1
+out[0] <= rotate_r:myr.port2
+out[1] <= rotate_r:myr.port2
+out[2] <= rotate_r:myr.port2
+out[3] <= rotate_r:myr.port2
+out[4] <= rotate_r:myr.port2
+out[5] <= rotate_r:myr.port2
+out[6] <= rotate_r:myr.port2
+out[7] <= rotate_r:myr.port2
+out[8] <= rotate_r:myr.port2
+out[9] <= rotate_r:myr.port2
+out[10] <= rotate_r:myr.port2
+out[11] <= rotate_r:myr.port2
+out[12] <= rotate_r:myr.port2
+out[13] <= rotate_r:myr.port2
+out[14] <= rotate_r:myr.port2
+out[15] <= rotate_r:myr.port2
+out[16] <= rotate_r:myr.port2
+out[17] <= rotate_r:myr.port2
+out[18] <= rotate_r:myr.port2
+out[19] <= rotate_r:myr.port2
+out[20] <= rotate_r:myr.port2
+out[21] <= rotate_r:myr.port2
+out[22] <= rotate_r:myr.port2
+out[23] <= rotate_r:myr.port2
+out[24] <= rotate_r:myr.port2
+out[25] <= rotate_r:myr.port2
+out[26] <= rotate_r:myr.port2
+out[27] <= rotate_r:myr.port2
+out[28] <= rotate_r:myr.port2
+out[29] <= rotate_r:myr.port2
+out[30] <= rotate_r:myr.port2
+out[31] <= rotate_r:myr.port2
+
+
+|bitcoin_miner|rotate_r:myr
+data_in[0] => data_in[0]~31.IN2
+data_in[1] => data_in[1]~30.IN2
+data_in[2] => data_in[2]~29.IN2
+data_in[3] => data_in[3]~28.IN2
+data_in[4] => data_in[4]~27.IN2
+data_in[5] => data_in[5]~26.IN2
+data_in[6] => data_in[6]~25.IN2
+data_in[7] => data_in[7]~24.IN2
+data_in[8] => data_in[8]~23.IN2
+data_in[9] => data_in[9]~22.IN2
+data_in[10] => data_in[10]~21.IN2
+data_in[11] => data_in[11]~20.IN2
+data_in[12] => data_in[12]~19.IN2
+data_in[13] => data_in[13]~18.IN2
+data_in[14] => data_in[14]~17.IN2
+data_in[15] => data_in[15]~16.IN2
+data_in[16] => data_in[16]~15.IN2
+data_in[17] => data_in[17]~14.IN2
+data_in[18] => data_in[18]~13.IN2
+data_in[19] => data_in[19]~12.IN2
+data_in[20] => data_in[20]~11.IN2
+data_in[21] => data_in[21]~10.IN2
+data_in[22] => data_in[22]~9.IN2
+data_in[23] => data_in[23]~8.IN2
+data_in[24] => data_in[24]~7.IN2
+data_in[25] => data_in[25]~6.IN2
+data_in[26] => data_in[26]~5.IN2
+data_in[27] => data_in[27]~4.IN2
+data_in[28] => data_in[28]~3.IN2
+data_in[29] => data_in[29]~2.IN2
+data_in[30] => data_in[30]~1.IN2
+data_in[31] => data_in[31]~0.IN2
+sel[0] => sel[0]~4.IN32
+sel[1] => sel[1]~3.IN32
+sel[2] => sel[2]~2.IN32
+sel[3] => sel[3]~1.IN32
+sel[4] => sel[4]~0.IN32
+data_out[0] <= usr_mux:loop8[0].m.port3
+data_out[1] <= usr_mux:loop8[1].m.port3
+data_out[2] <= usr_mux:loop8[2].m.port3
+data_out[3] <= usr_mux:loop8[3].m.port3
+data_out[4] <= usr_mux:loop8[4].m.port3
+data_out[5] <= usr_mux:loop8[5].m.port3
+data_out[6] <= usr_mux:loop8[6].m.port3
+data_out[7] <= usr_mux:loop8[7].m.port3
+data_out[8] <= usr_mux:loop8[8].m.port3
+data_out[9] <= usr_mux:loop8[9].m.port3
+data_out[10] <= usr_mux:loop8[10].m.port3
+data_out[11] <= usr_mux:loop8[11].m.port3
+data_out[12] <= usr_mux:loop8[12].m.port3
+data_out[13] <= usr_mux:loop8[13].m.port3
+data_out[14] <= usr_mux:loop8[14].m.port3
+data_out[15] <= usr_mux:loop8[15].m.port3
+data_out[16] <= usr_mux:loop9[16].m.port3
+data_out[17] <= usr_mux:loop9[17].m.port3
+data_out[18] <= usr_mux:loop9[18].m.port3
+data_out[19] <= usr_mux:loop9[19].m.port3
+data_out[20] <= usr_mux:loop9[20].m.port3
+data_out[21] <= usr_mux:loop9[21].m.port3
+data_out[22] <= usr_mux:loop9[22].m.port3
+data_out[23] <= usr_mux:loop9[23].m.port3
+data_out[24] <= usr_mux:loop9[24].m.port3
+data_out[25] <= usr_mux:loop9[25].m.port3
+data_out[26] <= usr_mux:loop9[26].m.port3
+data_out[27] <= usr_mux:loop9[27].m.port3
+data_out[28] <= usr_mux:loop9[28].m.port3
+data_out[29] <= usr_mux:loop9[29].m.port3
+data_out[30] <= usr_mux:loop9[30].m.port3
+data_out[31] <= usr_mux:loop9[31].m.port3
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[0].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[1].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[2].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[3].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[4].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[5].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[6].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[7].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[8].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[9].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[10].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[11].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[12].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[13].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[14].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[15].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[16].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[17].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[18].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[19].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[20].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[21].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[22].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[23].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[24].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[25].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[26].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[27].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[28].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[29].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop1[30].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:m0
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[0].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[1].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[2].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[3].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[4].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop2[29].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop3[30].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop3[31].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[0].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[1].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[2].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[3].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[4].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[5].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[6].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[7].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[8].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[9].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[10].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[11].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[12].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[13].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[14].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[15].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[16].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[17].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[18].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[19].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[20].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[21].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[22].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[23].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[24].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[25].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[26].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop4[27].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop5[28].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop5[29].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop5[30].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop5[31].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[0].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[1].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[2].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[3].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[4].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[17].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[18].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[19].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[20].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[21].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[22].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop6[23].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop7[24].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop7[25].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop7[26].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop7[27].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop7[28].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop7[29].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop7[30].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop7[31].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[0].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[1].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[2].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[3].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[4].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[5].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[6].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[7].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[8].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[9].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[10].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[11].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[12].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[13].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[14].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop8[15].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[16].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[17].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[18].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[19].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[20].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[21].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[25].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[26].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[29].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[30].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bitcoin_miner|rotate_r:myr|usr_mux:loop9[31].m
+x1 => out~0.IN0
+x2 => out~1.IN0
+sel => out~1.IN1
+sel => out~0.IN1
+out <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+

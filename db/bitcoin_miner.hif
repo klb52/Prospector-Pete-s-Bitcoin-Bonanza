@@ -1,0 +1,291 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+1000
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+documents|duke|teaching|ece 350|quartus9projects|skeleton|
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+bitcoin_miner
+# storage
+db|bitcoin_miner.(0).cnf
+db|bitcoin_miner.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+bitcoin_miner.v
+fd75b44f26730c65841dfd437215ee
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+rotate_r
+# storage
+db|bitcoin_miner.(1).cnf
+db|bitcoin_miner.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+bitcoin_miner.v
+fd75b44f26730c65841dfd437215ee
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+rotate_r:myr
+}
+# macro_sequence
+
+# end
+# entity
+usr_mux
+# storage
+db|bitcoin_miner.(2).cnf
+db|bitcoin_miner.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+bitcoin_miner.v
+fd75b44f26730c65841dfd437215ee
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+rotate_r:myr|usr_mux:loop1[0].m
+rotate_r:myr|usr_mux:loop1[1].m
+rotate_r:myr|usr_mux:loop1[2].m
+rotate_r:myr|usr_mux:loop1[3].m
+rotate_r:myr|usr_mux:loop1[4].m
+rotate_r:myr|usr_mux:loop1[5].m
+rotate_r:myr|usr_mux:loop1[6].m
+rotate_r:myr|usr_mux:loop1[7].m
+rotate_r:myr|usr_mux:loop1[8].m
+rotate_r:myr|usr_mux:loop1[9].m
+rotate_r:myr|usr_mux:loop1[10].m
+rotate_r:myr|usr_mux:loop1[11].m
+rotate_r:myr|usr_mux:loop1[12].m
+rotate_r:myr|usr_mux:loop1[13].m
+rotate_r:myr|usr_mux:loop1[14].m
+rotate_r:myr|usr_mux:loop1[15].m
+rotate_r:myr|usr_mux:loop1[16].m
+rotate_r:myr|usr_mux:loop1[17].m
+rotate_r:myr|usr_mux:loop1[18].m
+rotate_r:myr|usr_mux:loop1[19].m
+rotate_r:myr|usr_mux:loop1[20].m
+rotate_r:myr|usr_mux:loop1[21].m
+rotate_r:myr|usr_mux:loop1[22].m
+rotate_r:myr|usr_mux:loop1[23].m
+rotate_r:myr|usr_mux:loop1[24].m
+rotate_r:myr|usr_mux:loop1[25].m
+rotate_r:myr|usr_mux:loop1[26].m
+rotate_r:myr|usr_mux:loop1[27].m
+rotate_r:myr|usr_mux:loop1[28].m
+rotate_r:myr|usr_mux:loop1[29].m
+rotate_r:myr|usr_mux:loop1[30].m
+rotate_r:myr|usr_mux:m0
+rotate_r:myr|usr_mux:loop2[0].m
+rotate_r:myr|usr_mux:loop2[1].m
+rotate_r:myr|usr_mux:loop2[2].m
+rotate_r:myr|usr_mux:loop2[3].m
+rotate_r:myr|usr_mux:loop2[4].m
+rotate_r:myr|usr_mux:loop2[5].m
+rotate_r:myr|usr_mux:loop2[6].m
+rotate_r:myr|usr_mux:loop2[7].m
+rotate_r:myr|usr_mux:loop2[8].m
+rotate_r:myr|usr_mux:loop2[9].m
+rotate_r:myr|usr_mux:loop2[10].m
+rotate_r:myr|usr_mux:loop2[11].m
+rotate_r:myr|usr_mux:loop2[12].m
+rotate_r:myr|usr_mux:loop2[13].m
+rotate_r:myr|usr_mux:loop2[14].m
+rotate_r:myr|usr_mux:loop2[15].m
+rotate_r:myr|usr_mux:loop2[16].m
+rotate_r:myr|usr_mux:loop2[17].m
+rotate_r:myr|usr_mux:loop2[18].m
+rotate_r:myr|usr_mux:loop2[19].m
+rotate_r:myr|usr_mux:loop2[20].m
+rotate_r:myr|usr_mux:loop2[21].m
+rotate_r:myr|usr_mux:loop2[22].m
+rotate_r:myr|usr_mux:loop2[23].m
+rotate_r:myr|usr_mux:loop2[24].m
+rotate_r:myr|usr_mux:loop2[25].m
+rotate_r:myr|usr_mux:loop2[26].m
+rotate_r:myr|usr_mux:loop2[27].m
+rotate_r:myr|usr_mux:loop2[28].m
+rotate_r:myr|usr_mux:loop2[29].m
+rotate_r:myr|usr_mux:loop3[30].m
+rotate_r:myr|usr_mux:loop3[31].m
+rotate_r:myr|usr_mux:loop4[0].m
+rotate_r:myr|usr_mux:loop4[1].m
+rotate_r:myr|usr_mux:loop4[2].m
+rotate_r:myr|usr_mux:loop4[3].m
+rotate_r:myr|usr_mux:loop4[4].m
+rotate_r:myr|usr_mux:loop4[5].m
+rotate_r:myr|usr_mux:loop4[6].m
+rotate_r:myr|usr_mux:loop4[7].m
+rotate_r:myr|usr_mux:loop4[8].m
+rotate_r:myr|usr_mux:loop4[9].m
+rotate_r:myr|usr_mux:loop4[10].m
+rotate_r:myr|usr_mux:loop4[11].m
+rotate_r:myr|usr_mux:loop4[12].m
+rotate_r:myr|usr_mux:loop4[13].m
+rotate_r:myr|usr_mux:loop4[14].m
+rotate_r:myr|usr_mux:loop4[15].m
+rotate_r:myr|usr_mux:loop4[16].m
+rotate_r:myr|usr_mux:loop4[17].m
+rotate_r:myr|usr_mux:loop4[18].m
+rotate_r:myr|usr_mux:loop4[19].m
+rotate_r:myr|usr_mux:loop4[20].m
+rotate_r:myr|usr_mux:loop4[21].m
+rotate_r:myr|usr_mux:loop4[22].m
+rotate_r:myr|usr_mux:loop4[23].m
+rotate_r:myr|usr_mux:loop4[24].m
+rotate_r:myr|usr_mux:loop4[25].m
+rotate_r:myr|usr_mux:loop4[26].m
+rotate_r:myr|usr_mux:loop4[27].m
+rotate_r:myr|usr_mux:loop5[28].m
+rotate_r:myr|usr_mux:loop5[29].m
+rotate_r:myr|usr_mux:loop5[30].m
+rotate_r:myr|usr_mux:loop5[31].m
+rotate_r:myr|usr_mux:loop6[0].m
+rotate_r:myr|usr_mux:loop6[1].m
+rotate_r:myr|usr_mux:loop6[2].m
+rotate_r:myr|usr_mux:loop6[3].m
+rotate_r:myr|usr_mux:loop6[4].m
+rotate_r:myr|usr_mux:loop6[5].m
+rotate_r:myr|usr_mux:loop6[6].m
+rotate_r:myr|usr_mux:loop6[7].m
+rotate_r:myr|usr_mux:loop6[8].m
+rotate_r:myr|usr_mux:loop6[9].m
+rotate_r:myr|usr_mux:loop6[10].m
+rotate_r:myr|usr_mux:loop6[11].m
+rotate_r:myr|usr_mux:loop6[12].m
+rotate_r:myr|usr_mux:loop6[13].m
+rotate_r:myr|usr_mux:loop6[14].m
+rotate_r:myr|usr_mux:loop6[15].m
+rotate_r:myr|usr_mux:loop6[16].m
+rotate_r:myr|usr_mux:loop6[17].m
+rotate_r:myr|usr_mux:loop6[18].m
+rotate_r:myr|usr_mux:loop6[19].m
+rotate_r:myr|usr_mux:loop6[20].m
+rotate_r:myr|usr_mux:loop6[21].m
+rotate_r:myr|usr_mux:loop6[22].m
+rotate_r:myr|usr_mux:loop6[23].m
+rotate_r:myr|usr_mux:loop7[24].m
+rotate_r:myr|usr_mux:loop7[25].m
+rotate_r:myr|usr_mux:loop7[26].m
+rotate_r:myr|usr_mux:loop7[27].m
+rotate_r:myr|usr_mux:loop7[28].m
+rotate_r:myr|usr_mux:loop7[29].m
+rotate_r:myr|usr_mux:loop7[30].m
+rotate_r:myr|usr_mux:loop7[31].m
+rotate_r:myr|usr_mux:loop8[0].m
+rotate_r:myr|usr_mux:loop8[1].m
+rotate_r:myr|usr_mux:loop8[2].m
+rotate_r:myr|usr_mux:loop8[3].m
+rotate_r:myr|usr_mux:loop8[4].m
+rotate_r:myr|usr_mux:loop8[5].m
+rotate_r:myr|usr_mux:loop8[6].m
+rotate_r:myr|usr_mux:loop8[7].m
+rotate_r:myr|usr_mux:loop8[8].m
+rotate_r:myr|usr_mux:loop8[9].m
+rotate_r:myr|usr_mux:loop8[10].m
+rotate_r:myr|usr_mux:loop8[11].m
+rotate_r:myr|usr_mux:loop8[12].m
+rotate_r:myr|usr_mux:loop8[13].m
+rotate_r:myr|usr_mux:loop8[14].m
+rotate_r:myr|usr_mux:loop8[15].m
+rotate_r:myr|usr_mux:loop9[16].m
+rotate_r:myr|usr_mux:loop9[17].m
+rotate_r:myr|usr_mux:loop9[18].m
+rotate_r:myr|usr_mux:loop9[19].m
+rotate_r:myr|usr_mux:loop9[20].m
+rotate_r:myr|usr_mux:loop9[21].m
+rotate_r:myr|usr_mux:loop9[22].m
+rotate_r:myr|usr_mux:loop9[23].m
+rotate_r:myr|usr_mux:loop9[24].m
+rotate_r:myr|usr_mux:loop9[25].m
+rotate_r:myr|usr_mux:loop9[26].m
+rotate_r:myr|usr_mux:loop9[27].m
+rotate_r:myr|usr_mux:loop9[28].m
+rotate_r:myr|usr_mux:loop9[29].m
+rotate_r:myr|usr_mux:loop9[30].m
+rotate_r:myr|usr_mux:loop9[31].m
+}
+# macro_sequence
+
+# end
+# complete
+
