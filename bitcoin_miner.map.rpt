@@ -1,5 +1,5 @@
 Analysis & Synthesis report for bitcoin_miner
-Mon Apr 13 12:25:25 2015
+Wed Apr 15 00:25:45 2015
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -14,7 +14,98 @@ Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Analysis & Synthesis Messages
+  9. Port Connectivity Checks: "reg_k:rk|register:r63"
+ 10. Port Connectivity Checks: "reg_k:rk|register:r60"
+ 11. Port Connectivity Checks: "reg_k:rk|register:r59"
+ 12. Port Connectivity Checks: "reg_k:rk|register:r58"
+ 13. Port Connectivity Checks: "reg_k:rk|register:r57"
+ 14. Port Connectivity Checks: "reg_k:rk|register:r56"
+ 15. Port Connectivity Checks: "reg_k:rk|register:r55"
+ 16. Port Connectivity Checks: "reg_k:rk|register:r54"
+ 17. Port Connectivity Checks: "reg_k:rk|register:r53"
+ 18. Port Connectivity Checks: "reg_k:rk|register:r52"
+ 19. Port Connectivity Checks: "reg_k:rk|register:r51"
+ 20. Port Connectivity Checks: "reg_k:rk|register:r50"
+ 21. Port Connectivity Checks: "reg_k:rk|register:r49"
+ 22. Port Connectivity Checks: "reg_k:rk|register:r62"
+ 23. Port Connectivity Checks: "reg_k:rk|register:r48"
+ 24. Port Connectivity Checks: "reg_k:rk|register:r47"
+ 25. Port Connectivity Checks: "reg_k:rk|register:r46"
+ 26. Port Connectivity Checks: "reg_k:rk|register:r45"
+ 27. Port Connectivity Checks: "reg_k:rk|register:r44"
+ 28. Port Connectivity Checks: "reg_k:rk|register:r43"
+ 29. Port Connectivity Checks: "reg_k:rk|register:r42"
+ 30. Port Connectivity Checks: "reg_k:rk|register:r41"
+ 31. Port Connectivity Checks: "reg_k:rk|register:r40"
+ 32. Port Connectivity Checks: "reg_k:rk|register:r39"
+ 33. Port Connectivity Checks: "reg_k:rk|register:r38"
+ 34. Port Connectivity Checks: "reg_k:rk|register:r37"
+ 35. Port Connectivity Checks: "reg_k:rk|register:r36"
+ 36. Port Connectivity Checks: "reg_k:rk|register:r35"
+ 37. Port Connectivity Checks: "reg_k:rk|register:r34"
+ 38. Port Connectivity Checks: "reg_k:rk|register:r33"
+ 39. Port Connectivity Checks: "reg_k:rk|register:r32"
+ 40. Port Connectivity Checks: "reg_k:rk|register:r31"
+ 41. Port Connectivity Checks: "reg_k:rk|register:r30"
+ 42. Port Connectivity Checks: "reg_k:rk|register:r29"
+ 43. Port Connectivity Checks: "reg_k:rk|register:r28"
+ 44. Port Connectivity Checks: "reg_k:rk|register:r27"
+ 45. Port Connectivity Checks: "reg_k:rk|register:r26"
+ 46. Port Connectivity Checks: "reg_k:rk|register:r25"
+ 47. Port Connectivity Checks: "reg_k:rk|register:r24"
+ 48. Port Connectivity Checks: "reg_k:rk|register:r23"
+ 49. Port Connectivity Checks: "reg_k:rk|register:r22"
+ 50. Port Connectivity Checks: "reg_k:rk|register:r21"
+ 51. Port Connectivity Checks: "reg_k:rk|register:r20"
+ 52. Port Connectivity Checks: "reg_k:rk|register:r61"
+ 53. Port Connectivity Checks: "reg_k:rk|register:r19"
+ 54. Port Connectivity Checks: "reg_k:rk|register:r18"
+ 55. Port Connectivity Checks: "reg_k:rk|register:r17"
+ 56. Port Connectivity Checks: "reg_k:rk|register:r16"
+ 57. Port Connectivity Checks: "reg_k:rk|register:r15"
+ 58. Port Connectivity Checks: "reg_k:rk|register:r14"
+ 59. Port Connectivity Checks: "reg_k:rk|register:r13"
+ 60. Port Connectivity Checks: "reg_k:rk|register:r12"
+ 61. Port Connectivity Checks: "reg_k:rk|register:r11"
+ 62. Port Connectivity Checks: "reg_k:rk|register:r10"
+ 63. Port Connectivity Checks: "reg_k:rk|register:r9"
+ 64. Port Connectivity Checks: "reg_k:rk|register:r8"
+ 65. Port Connectivity Checks: "reg_k:rk|register:r7"
+ 66. Port Connectivity Checks: "reg_k:rk|register:r6"
+ 67. Port Connectivity Checks: "reg_k:rk|register:r5"
+ 68. Port Connectivity Checks: "reg_k:rk|register:r4"
+ 69. Port Connectivity Checks: "reg_k:rk|register:r3"
+ 70. Port Connectivity Checks: "reg_k:rk|register:r2"
+ 71. Port Connectivity Checks: "reg_k:rk|register:r1"
+ 72. Port Connectivity Checks: "reg_k:rk|register:r0"
+ 73. Port Connectivity Checks: "reg_k:rk"
+ 74. Port Connectivity Checks: "reg_h:rh|register:r7"
+ 75. Port Connectivity Checks: "reg_h:rh|register:r6"
+ 76. Port Connectivity Checks: "reg_h:rh|register:r5"
+ 77. Port Connectivity Checks: "reg_h:rh|register:r4"
+ 78. Port Connectivity Checks: "reg_h:rh|register:r3"
+ 79. Port Connectivity Checks: "reg_h:rh|register:r2"
+ 80. Port Connectivity Checks: "reg_h:rh|register:r1"
+ 81. Port Connectivity Checks: "reg_h:rh|register:r0"
+ 82. Port Connectivity Checks: "reg_h:rh"
+ 83. Port Connectivity Checks: "reg_data:rd|register:r15"
+ 84. Port Connectivity Checks: "reg_data:rd|register:r14"
+ 85. Port Connectivity Checks: "reg_data:rd|register:r13"
+ 86. Port Connectivity Checks: "reg_data:rd|register:r12"
+ 87. Port Connectivity Checks: "reg_data:rd|register:r11"
+ 88. Port Connectivity Checks: "reg_data:rd|register:r10"
+ 89. Port Connectivity Checks: "reg_data:rd|register:r9"
+ 90. Port Connectivity Checks: "reg_data:rd|register:r8"
+ 91. Port Connectivity Checks: "reg_data:rd|register:r7"
+ 92. Port Connectivity Checks: "reg_data:rd|register:r6"
+ 93. Port Connectivity Checks: "reg_data:rd|register:r5"
+ 94. Port Connectivity Checks: "reg_data:rd|register:r4"
+ 95. Port Connectivity Checks: "reg_data:rd|register:r3"
+ 96. Port Connectivity Checks: "reg_data:rd|register:r2"
+ 97. Port Connectivity Checks: "reg_data:rd|register:r1"
+ 98. Port Connectivity Checks: "reg_data:rd|register:r0"
+ 99. Port Connectivity Checks: "reg_data:rd"
+100. Analysis & Synthesis Messages
 
 
 
@@ -40,16 +131,16 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +------------------------------------+----------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Apr 13 12:25:25 2015        ;
+; Analysis & Synthesis Status        ; Successful - Wed Apr 15 00:25:45 2015        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; bitcoin_miner                                ;
 ; Top-level Entity Name              ; bitcoin_miner                                ;
 ; Family                             ; Cyclone II                                   ;
-; Total logic elements               ; 228                                          ;
-;     Total combinational functions  ; 228                                          ;
+; Total logic elements               ; 0                                            ;
+;     Total combinational functions  ; 0                                            ;
 ;     Dedicated logic registers      ; 0                                            ;
 ; Total registers                    ; 0                                            ;
-; Total pins                         ; 69                                           ;
+; Total pins                         ; 385                                          ;
 ; Total virtual pins                 ; 0                                            ;
 ; Total memory bits                  ; 0                                            ;
 ; Embedded Multiplier 9-bit elements ; 0                                            ;
@@ -147,146 +238,47 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                  ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                              ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------+
-; bitcoin_miner.v                  ; yes             ; User Verilog HDL File  ; C:/Users/Christopher/Desktop/FinalProject/bitcoin_miner.v ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                   ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                               ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------+
+; bitcoin_miner.v                  ; yes             ; User Verilog HDL File  ; C:/Users/Christopher/Desktop/FinalProject/Prospector-Petes-Bitcoin-Bonanza/bitcoin_miner.v ;
+; regfile.v                        ; yes             ; User Verilog HDL File  ; C:/Users/Christopher/Desktop/FinalProject/Prospector-Petes-Bitcoin-Bonanza/regfile.v       ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary          ;
-+---------------------------------------------+--------+
-; Resource                                    ; Usage  ;
-+---------------------------------------------+--------+
-; Estimated Total logic elements              ; 228    ;
-;                                             ;        ;
-; Total combinational functions               ; 228    ;
-; Logic element usage by number of LUT inputs ;        ;
-;     -- 4 input functions                    ; 160    ;
-;     -- 3 input functions                    ; 64     ;
-;     -- <=2 input functions                  ; 4      ;
-;                                             ;        ;
-; Logic elements by mode                      ;        ;
-;     -- normal mode                          ; 228    ;
-;     -- arithmetic mode                      ; 0      ;
-;                                             ;        ;
-; Total registers                             ; 0      ;
-;     -- Dedicated logic registers            ; 0      ;
-;     -- I/O registers                        ; 0      ;
-;                                             ;        ;
-; I/O pins                                    ; 69     ;
-; Maximum fan-out node                        ; sel[0] ;
-; Maximum fan-out                             ; 128    ;
-; Total fan-out                               ; 872    ;
-; Average fan-out                             ; 2.94   ;
-+---------------------------------------------+--------+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+;                                             ;       ;
+; Total combinational functions               ; 0     ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 0     ;
+;     -- 3 input functions                    ; 0     ;
+;     -- <=2 input functions                  ; 0     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 0     ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 0     ;
+;     -- Dedicated logic registers            ; 0     ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 385   ;
++---------------------------------------------+-------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                      ;
-+-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------+--------------+
-; Compilation Hierarchy Node  ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                             ; Library Name ;
-+-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------+--------------+
-; |bitcoin_miner              ; 228 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 69   ; 0            ; |bitcoin_miner                                  ; work         ;
-;    |rotate_r:myr|           ; 228 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr                     ;              ;
-;       |usr_mux:loop2[10].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[10].m ; work         ;
-;       |usr_mux:loop2[11].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[11].m ; work         ;
-;       |usr_mux:loop2[12].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[12].m ; work         ;
-;       |usr_mux:loop2[13].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[13].m ; work         ;
-;       |usr_mux:loop2[14].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[14].m ; work         ;
-;       |usr_mux:loop2[15].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[15].m ; work         ;
-;       |usr_mux:loop2[16].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[16].m ; work         ;
-;       |usr_mux:loop2[17].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[17].m ; work         ;
-;       |usr_mux:loop2[18].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[18].m ; work         ;
-;       |usr_mux:loop2[19].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[19].m ; work         ;
-;       |usr_mux:loop2[1].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[1].m  ; work         ;
-;       |usr_mux:loop2[20].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[20].m ; work         ;
-;       |usr_mux:loop2[21].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[21].m ; work         ;
-;       |usr_mux:loop2[22].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[22].m ; work         ;
-;       |usr_mux:loop2[23].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[23].m ; work         ;
-;       |usr_mux:loop2[24].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[24].m ; work         ;
-;       |usr_mux:loop2[25].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[25].m ; work         ;
-;       |usr_mux:loop2[26].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[26].m ; work         ;
-;       |usr_mux:loop2[27].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[27].m ; work         ;
-;       |usr_mux:loop2[28].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[28].m ; work         ;
-;       |usr_mux:loop2[29].m| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[29].m ; work         ;
-;       |usr_mux:loop2[2].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[2].m  ; work         ;
-;       |usr_mux:loop2[3].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[3].m  ; work         ;
-;       |usr_mux:loop2[4].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[4].m  ; work         ;
-;       |usr_mux:loop2[5].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[5].m  ; work         ;
-;       |usr_mux:loop2[6].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[6].m  ; work         ;
-;       |usr_mux:loop2[7].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[7].m  ; work         ;
-;       |usr_mux:loop2[8].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[8].m  ; work         ;
-;       |usr_mux:loop2[9].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop2[9].m  ; work         ;
-;       |usr_mux:loop3[31].m| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop3[31].m ; work         ;
-;       |usr_mux:loop6[0].m|  ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[0].m  ; work         ;
-;       |usr_mux:loop6[10].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[10].m ; work         ;
-;       |usr_mux:loop6[11].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[11].m ; work         ;
-;       |usr_mux:loop6[12].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[12].m ; work         ;
-;       |usr_mux:loop6[13].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[13].m ; work         ;
-;       |usr_mux:loop6[14].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[14].m ; work         ;
-;       |usr_mux:loop6[15].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[15].m ; work         ;
-;       |usr_mux:loop6[16].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[16].m ; work         ;
-;       |usr_mux:loop6[17].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[17].m ; work         ;
-;       |usr_mux:loop6[18].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[18].m ; work         ;
-;       |usr_mux:loop6[19].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[19].m ; work         ;
-;       |usr_mux:loop6[1].m|  ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[1].m  ; work         ;
-;       |usr_mux:loop6[20].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[20].m ; work         ;
-;       |usr_mux:loop6[21].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[21].m ; work         ;
-;       |usr_mux:loop6[22].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[22].m ; work         ;
-;       |usr_mux:loop6[23].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[23].m ; work         ;
-;       |usr_mux:loop6[2].m|  ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[2].m  ; work         ;
-;       |usr_mux:loop6[3].m|  ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[3].m  ; work         ;
-;       |usr_mux:loop6[4].m|  ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[4].m  ; work         ;
-;       |usr_mux:loop6[5].m|  ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[5].m  ; work         ;
-;       |usr_mux:loop6[6].m|  ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[6].m  ; work         ;
-;       |usr_mux:loop6[7].m|  ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[7].m  ; work         ;
-;       |usr_mux:loop6[8].m|  ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[8].m  ; work         ;
-;       |usr_mux:loop6[9].m|  ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop6[9].m  ; work         ;
-;       |usr_mux:loop7[24].m| ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[24].m ; work         ;
-;       |usr_mux:loop7[25].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[25].m ; work         ;
-;       |usr_mux:loop7[26].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[26].m ; work         ;
-;       |usr_mux:loop7[27].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[27].m ; work         ;
-;       |usr_mux:loop7[28].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[28].m ; work         ;
-;       |usr_mux:loop7[29].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[29].m ; work         ;
-;       |usr_mux:loop7[30].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[30].m ; work         ;
-;       |usr_mux:loop7[31].m| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop7[31].m ; work         ;
-;       |usr_mux:loop8[0].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[0].m  ; work         ;
-;       |usr_mux:loop8[10].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[10].m ; work         ;
-;       |usr_mux:loop8[11].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[11].m ; work         ;
-;       |usr_mux:loop8[12].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[12].m ; work         ;
-;       |usr_mux:loop8[13].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[13].m ; work         ;
-;       |usr_mux:loop8[14].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[14].m ; work         ;
-;       |usr_mux:loop8[15].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[15].m ; work         ;
-;       |usr_mux:loop8[1].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[1].m  ; work         ;
-;       |usr_mux:loop8[2].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[2].m  ; work         ;
-;       |usr_mux:loop8[3].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[3].m  ; work         ;
-;       |usr_mux:loop8[4].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[4].m  ; work         ;
-;       |usr_mux:loop8[5].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[5].m  ; work         ;
-;       |usr_mux:loop8[6].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[6].m  ; work         ;
-;       |usr_mux:loop8[7].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[7].m  ; work         ;
-;       |usr_mux:loop8[8].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[8].m  ; work         ;
-;       |usr_mux:loop8[9].m|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop8[9].m  ; work         ;
-;       |usr_mux:loop9[16].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[16].m ; work         ;
-;       |usr_mux:loop9[17].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[17].m ; work         ;
-;       |usr_mux:loop9[18].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[18].m ; work         ;
-;       |usr_mux:loop9[19].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[19].m ; work         ;
-;       |usr_mux:loop9[20].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[20].m ; work         ;
-;       |usr_mux:loop9[21].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[21].m ; work         ;
-;       |usr_mux:loop9[22].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[22].m ; work         ;
-;       |usr_mux:loop9[23].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[23].m ; work         ;
-;       |usr_mux:loop9[24].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[24].m ; work         ;
-;       |usr_mux:loop9[25].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[25].m ; work         ;
-;       |usr_mux:loop9[26].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[26].m ; work         ;
-;       |usr_mux:loop9[27].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[27].m ; work         ;
-;       |usr_mux:loop9[28].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[28].m ; work         ;
-;       |usr_mux:loop9[29].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[29].m ; work         ;
-;       |usr_mux:loop9[30].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[30].m ; work         ;
-;       |usr_mux:loop9[31].m| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bitcoin_miner|rotate_r:myr|usr_mux:loop9[31].m ; work         ;
-+-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; |bitcoin_miner             ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 385  ; 0            ; |bitcoin_miner      ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -305,29 +297,2544 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r63" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[31..30] ; Input ; Info     ; Stuck at VCC      ;
+; in[26..25] ; Input ; Info     ; Stuck at VCC      ;
+; in[22..20] ; Input ; Info     ; Stuck at VCC      ;
+; in[14..11] ; Input ; Info     ; Stuck at VCC      ;
+; in[7..4]   ; Input ; Info     ; Stuck at VCC      ;
+; in[29..27] ; Input ; Info     ; Stuck at GND      ;
+; in[24..23] ; Input ; Info     ; Stuck at GND      ;
+; in[19..17] ; Input ; Info     ; Stuck at GND      ;
+; in[10..8]  ; Input ; Info     ; Stuck at GND      ;
+; in[3..2]   ; Input ; Info     ; Stuck at GND      ;
+; in[16]     ; Input ; Info     ; Stuck at VCC      ;
+; in[15]     ; Input ; Info     ; Stuck at GND      ;
+; in[1]      ; Input ; Info     ; Stuck at VCC      ;
+; in[0]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r60" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[29..25] ; Input ; Info     ; Stuck at VCC      ;
+; in[23..19] ; Input ; Info     ; Stuck at VCC      ;
+; in[16..15] ; Input ; Info     ; Stuck at VCC      ;
+; in[9..4]   ; Input ; Info     ; Stuck at VCC      ;
+; in[2..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[18..17] ; Input ; Info     ; Stuck at GND      ;
+; in[12..10] ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[30]     ; Input ; Info     ; Stuck at GND      ;
+; in[24]     ; Input ; Info     ; Stuck at GND      ;
+; in[14]     ; Input ; Info     ; Stuck at GND      ;
+; in[13]     ; Input ; Info     ; Stuck at VCC      ;
+; in[3]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r59" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[14..13] ; Input ; Info     ; Stuck at VCC      ;
+; in[11..10] ; Input ; Info     ; Stuck at VCC      ;
+; in[7..5]   ; Input ; Info     ; Stuck at VCC      ;
+; in[1..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[28..27] ; Input ; Info     ; Stuck at GND      ;
+; in[25..23] ; Input ; Info     ; Stuck at GND      ;
+; in[19..15] ; Input ; Info     ; Stuck at GND      ;
+; in[9..8]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[30]     ; Input ; Info     ; Stuck at GND      ;
+; in[29]     ; Input ; Info     ; Stuck at VCC      ;
+; in[26]     ; Input ; Info     ; Stuck at VCC      ;
+; in[22]     ; Input ; Info     ; Stuck at VCC      ;
+; in[21]     ; Input ; Info     ; Stuck at GND      ;
+; in[20]     ; Input ; Info     ; Stuck at VCC      ;
+; in[12]     ; Input ; Info     ; Stuck at GND      ;
+; in[4]      ; Input ; Info     ; Stuck at GND      ;
+; in[3]      ; Input ; Info     ; Stuck at VCC      ;
+; in[2]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r58" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[21..17] ; Input ; Info     ; Stuck at VCC      ;
+; in[15..3]  ; Input ; Info     ; Stuck at VCC      ;
+; in[30..29] ; Input ; Info     ; Stuck at GND      ;
+; in[27..24] ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[28]     ; Input ; Info     ; Stuck at VCC      ;
+; in[23]     ; Input ; Info     ; Stuck at VCC      ;
+; in[22]     ; Input ; Info     ; Stuck at GND      ;
+; in[16]     ; Input ; Info     ; Stuck at GND      ;
+; in[2]      ; Input ; Info     ; Stuck at GND      ;
+; in[1]      ; Input ; Info     ; Stuck at VCC      ;
+; in[0]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r57" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[27..26] ; Input ; Info     ; Stuck at VCC      ;
+; in[23..22] ; Input ; Info     ; Stuck at VCC      ;
+; in[18..16] ; Input ; Info     ; Stuck at VCC      ;
+; in[30..28] ; Input ; Info     ; Stuck at GND      ;
+; in[25..24] ; Input ; Info     ; Stuck at GND      ;
+; in[21..19] ; Input ; Info     ; Stuck at GND      ;
+; in[15..10] ; Input ; Info     ; Stuck at GND      ;
+; in[8..4]   ; Input ; Info     ; Stuck at GND      ;
+; in[2..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[9]      ; Input ; Info     ; Stuck at VCC      ;
+; in[3]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r56" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[23..22] ; Input ; Info     ; Stuck at VCC      ;
+; in[14..11] ; Input ; Info     ; Stuck at VCC      ;
+; in[30..27] ; Input ; Info     ; Stuck at GND      ;
+; in[25..24] ; Input ; Info     ; Stuck at GND      ;
+; in[21..20] ; Input ; Info     ; Stuck at GND      ;
+; in[18..15] ; Input ; Info     ; Stuck at GND      ;
+; in[10..5]  ; Input ; Info     ; Stuck at GND      ;
+; in[1..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[26]     ; Input ; Info     ; Stuck at VCC      ;
+; in[19]     ; Input ; Info     ; Stuck at VCC      ;
+; in[4]      ; Input ; Info     ; Stuck at VCC      ;
+; in[3]      ; Input ; Info     ; Stuck at GND      ;
+; in[2]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r55" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[30..27] ; Input ; Info     ; Stuck at VCC      ;
+; in[14..13] ; Input ; Info     ; Stuck at VCC      ;
+; in[9..8]   ; Input ; Info     ; Stuck at VCC      ;
+; in[6..5]   ; Input ; Info     ; Stuck at VCC      ;
+; in[3..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[26..24] ; Input ; Info     ; Stuck at GND      ;
+; in[20..19] ; Input ; Info     ; Stuck at GND      ;
+; in[12..10] ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[23]     ; Input ; Info     ; Stuck at VCC      ;
+; in[22]     ; Input ; Info     ; Stuck at GND      ;
+; in[21]     ; Input ; Info     ; Stuck at VCC      ;
+; in[18]     ; Input ; Info     ; Stuck at VCC      ;
+; in[17]     ; Input ; Info     ; Stuck at GND      ;
+; in[16]     ; Input ; Info     ; Stuck at VCC      ;
+; in[15]     ; Input ; Info     ; Stuck at GND      ;
+; in[7]      ; Input ; Info     ; Stuck at GND      ;
+; in[4]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r54" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[30..28] ; Input ; Info     ; Stuck at VCC      ;
+; in[19..15] ; Input ; Info     ; Stuck at VCC      ;
+; in[7..5]   ; Input ; Info     ; Stuck at VCC      ;
+; in[3..1]   ; Input ; Info     ; Stuck at VCC      ;
+; in[25..24] ; Input ; Info     ; Stuck at GND      ;
+; in[22..20] ; Input ; Info     ; Stuck at GND      ;
+; in[14..10] ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[27]     ; Input ; Info     ; Stuck at GND      ;
+; in[26]     ; Input ; Info     ; Stuck at VCC      ;
+; in[23]     ; Input ; Info     ; Stuck at VCC      ;
+; in[9]      ; Input ; Info     ; Stuck at VCC      ;
+; in[8]      ; Input ; Info     ; Stuck at GND      ;
+; in[4]      ; Input ; Info     ; Stuck at GND      ;
+; in[0]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r53" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[30..29] ; Input ; Info     ; Stuck at VCC      ;
+; in[19..17] ; Input ; Info     ; Stuck at VCC      ;
+; in[14..13] ; Input ; Info     ; Stuck at VCC      ;
+; in[11..4]  ; Input ; Info     ; Stuck at VCC      ;
+; in[1..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[26..22] ; Input ; Info     ; Stuck at GND      ;
+; in[16..15] ; Input ; Info     ; Stuck at GND      ;
+; in[3..2]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[28]     ; Input ; Info     ; Stuck at GND      ;
+; in[27]     ; Input ; Info     ; Stuck at VCC      ;
+; in[21]     ; Input ; Info     ; Stuck at VCC      ;
+; in[20]     ; Input ; Info     ; Stuck at GND      ;
+; in[12]     ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r52" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[28..27] ; Input ; Info     ; Stuck at VCC      ;
+; in[25..23] ; Input ; Info     ; Stuck at VCC      ;
+; in[20..18] ; Input ; Info     ; Stuck at VCC      ;
+; in[15..14] ; Input ; Info     ; Stuck at VCC      ;
+; in[3..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[22..21] ; Input ; Info     ; Stuck at GND      ;
+; in[17..16] ; Input ; Info     ; Stuck at GND      ;
+; in[13..12] ; Input ; Info     ; Stuck at GND      ;
+; in[8..7]   ; Input ; Info     ; Stuck at GND      ;
+; in[5..4]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[30]     ; Input ; Info     ; Stuck at VCC      ;
+; in[29]     ; Input ; Info     ; Stuck at GND      ;
+; in[26]     ; Input ; Info     ; Stuck at GND      ;
+; in[11]     ; Input ; Info     ; Stuck at VCC      ;
+; in[10]     ; Input ; Info     ; Stuck at GND      ;
+; in[9]      ; Input ; Info     ; Stuck at VCC      ;
+; in[6]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r51" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[27..25] ; Input ; Info     ; Stuck at VCC      ;
+; in[23..22] ; Input ; Info     ; Stuck at VCC      ;
+; in[20..19] ; Input ; Info     ; Stuck at VCC      ;
+; in[29..28] ; Input ; Info     ; Stuck at GND      ;
+; in[18..16] ; Input ; Info     ; Stuck at GND      ;
+; in[8..7]   ; Input ; Info     ; Stuck at GND      ;
+; in[5..4]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[30]     ; Input ; Info     ; Stuck at VCC      ;
+; in[24]     ; Input ; Info     ; Stuck at GND      ;
+; in[21]     ; Input ; Info     ; Stuck at GND      ;
+; in[15]     ; Input ; Info     ; Stuck at VCC      ;
+; in[14]     ; Input ; Info     ; Stuck at GND      ;
+; in[13]     ; Input ; Info     ; Stuck at VCC      ;
+; in[12]     ; Input ; Info     ; Stuck at GND      ;
+; in[11]     ; Input ; Info     ; Stuck at VCC      ;
+; in[10]     ; Input ; Info     ; Stuck at GND      ;
+; in[9]      ; Input ; Info     ; Stuck at VCC      ;
+; in[6]      ; Input ; Info     ; Stuck at VCC      ;
+; in[3]      ; Input ; Info     ; Stuck at VCC      ;
+; in[2]      ; Input ; Info     ; Stuck at GND      ;
+; in[1]      ; Input ; Info     ; Stuck at VCC      ;
+; in[0]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r50" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[29..27] ; Input ; Info     ; Stuck at VCC      ;
+; in[20..18] ; Input ; Info     ; Stuck at VCC      ;
+; in[11..10] ; Input ; Info     ; Stuck at VCC      ;
+; in[5..4]   ; Input ; Info     ; Stuck at VCC      ;
+; in[1..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[31..30] ; Input ; Info     ; Stuck at GND      ;
+; in[26..25] ; Input ; Info     ; Stuck at GND      ;
+; in[23..21] ; Input ; Info     ; Stuck at GND      ;
+; in[17..12] ; Input ; Info     ; Stuck at GND      ;
+; in[9..8]   ; Input ; Info     ; Stuck at GND      ;
+; in[3..2]   ; Input ; Info     ; Stuck at GND      ;
+; in[24]     ; Input ; Info     ; Stuck at VCC      ;
+; in[7]      ; Input ; Info     ; Stuck at VCC      ;
+; in[6]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r49" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[29..28] ; Input ; Info     ; Stuck at VCC      ;
+; in[21..20] ; Input ; Info     ; Stuck at VCC      ;
+; in[13..10] ; Input ; Info     ; Stuck at VCC      ;
+; in[5..4]   ; Input ; Info     ; Stuck at VCC      ;
+; in[31..30] ; Input ; Info     ; Stuck at GND      ;
+; in[25..24] ; Input ; Info     ; Stuck at GND      ;
+; in[19..16] ; Input ; Info     ; Stuck at GND      ;
+; in[9..8]   ; Input ; Info     ; Stuck at GND      ;
+; in[27]     ; Input ; Info     ; Stuck at GND      ;
+; in[26]     ; Input ; Info     ; Stuck at VCC      ;
+; in[23]     ; Input ; Info     ; Stuck at VCC      ;
+; in[22]     ; Input ; Info     ; Stuck at GND      ;
+; in[15]     ; Input ; Info     ; Stuck at VCC      ;
+; in[14]     ; Input ; Info     ; Stuck at GND      ;
+; in[7]      ; Input ; Info     ; Stuck at VCC      ;
+; in[6]      ; Input ; Info     ; Stuck at GND      ;
+; in[3]      ; Input ; Info     ; Stuck at GND      ;
+; in[2]      ; Input ; Info     ; Stuck at VCC      ;
+; in[1]      ; Input ; Info     ; Stuck at GND      ;
+; in[0]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r62" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[26..24] ; Input ; Info     ; Stuck at VCC      ;
+; in[14..12] ; Input ; Info     ; Stuck at VCC      ;
+; in[10..8]  ; Input ; Info     ; Stuck at VCC      ;
+; in[3..2]   ; Input ; Info     ; Stuck at VCC      ;
+; in[31..30] ; Input ; Info     ; Stuck at GND      ;
+; in[28..27] ; Input ; Info     ; Stuck at GND      ;
+; in[21..20] ; Input ; Info     ; Stuck at GND      ;
+; in[18..15] ; Input ; Info     ; Stuck at GND      ;
+; in[5..4]   ; Input ; Info     ; Stuck at GND      ;
+; in[1..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[29]     ; Input ; Info     ; Stuck at VCC      ;
+; in[23]     ; Input ; Info     ; Stuck at GND      ;
+; in[22]     ; Input ; Info     ; Stuck at VCC      ;
+; in[19]     ; Input ; Info     ; Stuck at VCC      ;
+; in[11]     ; Input ; Info     ; Stuck at GND      ;
+; in[7]      ; Input ; Info     ; Stuck at GND      ;
+; in[6]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r48" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[28..25] ; Input ; Info     ; Stuck at VCC      ;
+; in[21..20] ; Input ; Info     ; Stuck at VCC      ;
+; in[18..16] ; Input ; Info     ; Stuck at VCC      ;
+; in[14..13] ; Input ; Info     ; Stuck at VCC      ;
+; in[11..10] ; Input ; Info     ; Stuck at VCC      ;
+; in[31..29] ; Input ; Info     ; Stuck at GND      ;
+; in[24..22] ; Input ; Info     ; Stuck at GND      ;
+; in[9..4]   ; Input ; Info     ; Stuck at GND      ;
+; in[2..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[19]     ; Input ; Info     ; Stuck at GND      ;
+; in[15]     ; Input ; Info     ; Stuck at GND      ;
+; in[12]     ; Input ; Info     ; Stuck at GND      ;
+; in[3]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r47" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[28..27] ; Input ; Info     ; Stuck at VCC      ;
+; in[24..23] ; Input ; Info     ; Stuck at VCC      ;
+; in[15..14] ; Input ; Info     ; Stuck at VCC      ;
+; in[2..1]   ; Input ; Info     ; Stuck at VCC      ;
+; in[31..29] ; Input ; Info     ; Stuck at GND      ;
+; in[26..25] ; Input ; Info     ; Stuck at GND      ;
+; in[20..19] ; Input ; Info     ; Stuck at GND      ;
+; in[17..16] ; Input ; Info     ; Stuck at GND      ;
+; in[13..9]  ; Input ; Info     ; Stuck at GND      ;
+; in[7..5]   ; Input ; Info     ; Stuck at GND      ;
+; in[22]     ; Input ; Info     ; Stuck at GND      ;
+; in[21]     ; Input ; Info     ; Stuck at VCC      ;
+; in[18]     ; Input ; Info     ; Stuck at VCC      ;
+; in[8]      ; Input ; Info     ; Stuck at VCC      ;
+; in[4]      ; Input ; Info     ; Stuck at VCC      ;
+; in[3]      ; Input ; Info     ; Stuck at GND      ;
+; in[0]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r46" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[22..21] ; Input ; Info     ; Stuck at VCC      ;
+; in[6..4]   ; Input ; Info     ; Stuck at VCC      ;
+; in[31..29] ; Input ; Info     ; Stuck at GND      ;
+; in[27..23] ; Input ; Info     ; Stuck at GND      ;
+; in[12..7]  ; Input ; Info     ; Stuck at GND      ;
+; in[3..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[28]     ; Input ; Info     ; Stuck at VCC      ;
+; in[20]     ; Input ; Info     ; Stuck at GND      ;
+; in[19]     ; Input ; Info     ; Stuck at VCC      ;
+; in[18]     ; Input ; Info     ; Stuck at GND      ;
+; in[17]     ; Input ; Info     ; Stuck at VCC      ;
+; in[16]     ; Input ; Info     ; Stuck at GND      ;
+; in[15]     ; Input ; Info     ; Stuck at VCC      ;
+; in[14]     ; Input ; Info     ; Stuck at GND      ;
+; in[13]     ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r45" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[31..28] ; Input ; Info     ; Stuck at VCC      ;
+; in[19..17] ; Input ; Info     ; Stuck at VCC      ;
+; in[13..12] ; Input ; Info     ; Stuck at VCC      ;
+; in[8..7]   ; Input ; Info     ; Stuck at VCC      ;
+; in[25..20] ; Input ; Info     ; Stuck at GND      ;
+; in[16..14] ; Input ; Info     ; Stuck at GND      ;
+; in[6..3]   ; Input ; Info     ; Stuck at GND      ;
+; in[27]     ; Input ; Info     ; Stuck at GND      ;
+; in[26]     ; Input ; Info     ; Stuck at VCC      ;
+; in[11]     ; Input ; Info     ; Stuck at GND      ;
+; in[10]     ; Input ; Info     ; Stuck at VCC      ;
+; in[9]      ; Input ; Info     ; Stuck at GND      ;
+; in[2]      ; Input ; Info     ; Stuck at VCC      ;
+; in[1]      ; Input ; Info     ; Stuck at GND      ;
+; in[0]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r44" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[31..30] ; Input ; Info     ; Stuck at VCC      ;
+; in[26..25] ; Input ; Info     ; Stuck at VCC      ;
+; in[20..19] ; Input ; Info     ; Stuck at VCC      ;
+; in[10..9]  ; Input ; Info     ; Stuck at VCC      ;
+; in[22..21] ; Input ; Info     ; Stuck at GND      ;
+; in[18..17] ; Input ; Info     ; Stuck at GND      ;
+; in[15..11] ; Input ; Info     ; Stuck at GND      ;
+; in[8..6]   ; Input ; Info     ; Stuck at GND      ;
+; in[4..3]   ; Input ; Info     ; Stuck at GND      ;
+; in[1..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[29]     ; Input ; Info     ; Stuck at GND      ;
+; in[28]     ; Input ; Info     ; Stuck at VCC      ;
+; in[27]     ; Input ; Info     ; Stuck at GND      ;
+; in[24]     ; Input ; Info     ; Stuck at GND      ;
+; in[23]     ; Input ; Info     ; Stuck at VCC      ;
+; in[16]     ; Input ; Info     ; Stuck at VCC      ;
+; in[5]      ; Input ; Info     ; Stuck at VCC      ;
+; in[2]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r43" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[31..30] ; Input ; Info     ; Stuck at VCC      ;
+; in[24..23] ; Input ; Info     ; Stuck at VCC      ;
+; in[15..13] ; Input ; Info     ; Stuck at VCC      ;
+; in[4..3]   ; Input ; Info     ; Stuck at VCC      ;
+; in[27..25] ; Input ; Info     ; Stuck at GND      ;
+; in[22..21] ; Input ; Info     ; Stuck at GND      ;
+; in[19..18] ; Input ; Info     ; Stuck at GND      ;
+; in[10..5]  ; Input ; Info     ; Stuck at GND      ;
+; in[2..1]   ; Input ; Info     ; Stuck at GND      ;
+; in[29]     ; Input ; Info     ; Stuck at GND      ;
+; in[28]     ; Input ; Info     ; Stuck at VCC      ;
+; in[20]     ; Input ; Info     ; Stuck at VCC      ;
+; in[17]     ; Input ; Info     ; Stuck at VCC      ;
+; in[16]     ; Input ; Info     ; Stuck at GND      ;
+; in[12]     ; Input ; Info     ; Stuck at GND      ;
+; in[11]     ; Input ; Info     ; Stuck at VCC      ;
+; in[0]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r42" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[31..30] ; Input ; Info     ; Stuck at VCC      ;
+; in[26..24] ; Input ; Info     ; Stuck at VCC      ;
+; in[22..21] ; Input ; Info     ; Stuck at VCC      ;
+; in[19..18] ; Input ; Info     ; Stuck at VCC      ;
+; in[8..7]   ; Input ; Info     ; Stuck at VCC      ;
+; in[1..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[29..27] ; Input ; Info     ; Stuck at GND      ;
+; in[17..15] ; Input ; Info     ; Stuck at GND      ;
+; in[11..9]  ; Input ; Info     ; Stuck at GND      ;
+; in[4..2]   ; Input ; Info     ; Stuck at GND      ;
+; in[23]     ; Input ; Info     ; Stuck at GND      ;
+; in[20]     ; Input ; Info     ; Stuck at GND      ;
+; in[14]     ; Input ; Info     ; Stuck at VCC      ;
+; in[13]     ; Input ; Info     ; Stuck at GND      ;
+; in[12]     ; Input ; Info     ; Stuck at VCC      ;
+; in[6]      ; Input ; Info     ; Stuck at GND      ;
+; in[5]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r41" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[31..30] ; Input ; Info     ; Stuck at VCC      ;
+; in[17..15] ; Input ; Info     ; Stuck at VCC      ;
+; in[9..8]   ; Input ; Info     ; Stuck at VCC      ;
+; in[6..4]   ; Input ; Info     ; Stuck at VCC      ;
+; in[29..26] ; Input ; Info     ; Stuck at GND      ;
+; in[24..23] ; Input ; Info     ; Stuck at GND      ;
+; in[21..20] ; Input ; Info     ; Stuck at GND      ;
+; in[14..12] ; Input ; Info     ; Stuck at GND      ;
+; in[3..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[25]     ; Input ; Info     ; Stuck at VCC      ;
+; in[22]     ; Input ; Info     ; Stuck at VCC      ;
+; in[19]     ; Input ; Info     ; Stuck at VCC      ;
+; in[18]     ; Input ; Info     ; Stuck at GND      ;
+; in[11]     ; Input ; Info     ; Stuck at VCC      ;
+; in[10]     ; Input ; Info     ; Stuck at GND      ;
+; in[7]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r40" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[20..19] ; Input ; Info     ; Stuck at VCC      ;
+; in[14..13] ; Input ; Info     ; Stuck at VCC      ;
+; in[10..9]  ; Input ; Info     ; Stuck at VCC      ;
+; in[1..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[26..21] ; Input ; Info     ; Stuck at GND      ;
+; in[16..15] ; Input ; Info     ; Stuck at GND      ;
+; in[12..11] ; Input ; Info     ; Stuck at GND      ;
+; in[8..7]   ; Input ; Info     ; Stuck at GND      ;
+; in[5..4]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[30]     ; Input ; Info     ; Stuck at GND      ;
+; in[29]     ; Input ; Info     ; Stuck at VCC      ;
+; in[28]     ; Input ; Info     ; Stuck at GND      ;
+; in[27]     ; Input ; Info     ; Stuck at VCC      ;
+; in[18]     ; Input ; Info     ; Stuck at GND      ;
+; in[17]     ; Input ; Info     ; Stuck at VCC      ;
+; in[6]      ; Input ; Info     ; Stuck at VCC      ;
+; in[3]      ; Input ; Info     ; Stuck at VCC      ;
+; in[2]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r39" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[21..13] ; Input ; Info     ; Stuck at VCC      ;
+; in[28..26] ; Input ; Info     ; Stuck at GND      ;
+; in[10..8]  ; Input ; Info     ; Stuck at GND      ;
+; in[4..1]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[30]     ; Input ; Info     ; Stuck at GND      ;
+; in[29]     ; Input ; Info     ; Stuck at VCC      ;
+; in[25]     ; Input ; Info     ; Stuck at VCC      ;
+; in[24]     ; Input ; Info     ; Stuck at GND      ;
+; in[23]     ; Input ; Info     ; Stuck at VCC      ;
+; in[22]     ; Input ; Info     ; Stuck at GND      ;
+; in[12]     ; Input ; Info     ; Stuck at GND      ;
+; in[11]     ; Input ; Info     ; Stuck at VCC      ;
+; in[7]      ; Input ; Info     ; Stuck at VCC      ;
+; in[6]      ; Input ; Info     ; Stuck at GND      ;
+; in[5]      ; Input ; Info     ; Stuck at VCC      ;
+; in[0]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r38" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[22..20] ; Input ; Info     ; Stuck at VCC      ;
+; in[11..10] ; Input ; Info     ; Stuck at VCC      ;
+; in[30..29] ; Input ; Info     ; Stuck at GND      ;
+; in[27..26] ; Input ; Info     ; Stuck at GND      ;
+; in[24..23] ; Input ; Info     ; Stuck at GND      ;
+; in[19..18] ; Input ; Info     ; Stuck at GND      ;
+; in[16..14] ; Input ; Info     ; Stuck at GND      ;
+; in[9..8]   ; Input ; Info     ; Stuck at GND      ;
+; in[6..3]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[28]     ; Input ; Info     ; Stuck at VCC      ;
+; in[25]     ; Input ; Info     ; Stuck at VCC      ;
+; in[17]     ; Input ; Info     ; Stuck at VCC      ;
+; in[13]     ; Input ; Info     ; Stuck at VCC      ;
+; in[12]     ; Input ; Info     ; Stuck at GND      ;
+; in[7]      ; Input ; Info     ; Stuck at VCC      ;
+; in[2]      ; Input ; Info     ; Stuck at VCC      ;
+; in[1]      ; Input ; Info     ; Stuck at GND      ;
+; in[0]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r37" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[24..22] ; Input ; Info     ; Stuck at VCC      ;
+; in[15..14] ; Input ; Info     ; Stuck at VCC      ;
+; in[3..1]   ; Input ; Info     ; Stuck at VCC      ;
+; in[30..25] ; Input ; Info     ; Stuck at GND      ;
+; in[21..18] ; Input ; Info     ; Stuck at GND      ;
+; in[13..12] ; Input ; Info     ; Stuck at GND      ;
+; in[10..9]  ; Input ; Info     ; Stuck at GND      ;
+; in[7..6]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[17]     ; Input ; Info     ; Stuck at VCC      ;
+; in[16]     ; Input ; Info     ; Stuck at GND      ;
+; in[11]     ; Input ; Info     ; Stuck at VCC      ;
+; in[8]      ; Input ; Info     ; Stuck at VCC      ;
+; in[5]      ; Input ; Info     ; Stuck at VCC      ;
+; in[4]      ; Input ; Info     ; Stuck at GND      ;
+; in[0]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r36" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[30..28] ; Input ; Info     ; Stuck at VCC      ;
+; in[26..25] ; Input ; Info     ; Stuck at VCC      ;
+; in[22..21] ; Input ; Info     ; Stuck at VCC      ;
+; in[5..3]   ; Input ; Info     ; Stuck at VCC      ;
+; in[1..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[24..23] ; Input ; Info     ; Stuck at GND      ;
+; in[16..12] ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[27]     ; Input ; Info     ; Stuck at GND      ;
+; in[20]     ; Input ; Info     ; Stuck at GND      ;
+; in[19]     ; Input ; Info     ; Stuck at VCC      ;
+; in[18]     ; Input ; Info     ; Stuck at GND      ;
+; in[17]     ; Input ; Info     ; Stuck at VCC      ;
+; in[11]     ; Input ; Info     ; Stuck at VCC      ;
+; in[10]     ; Input ; Info     ; Stuck at GND      ;
+; in[9]      ; Input ; Info     ; Stuck at VCC      ;
+; in[8]      ; Input ; Info     ; Stuck at GND      ;
+; in[7]      ; Input ; Info     ; Stuck at VCC      ;
+; in[6]      ; Input ; Info     ; Stuck at GND      ;
+; in[2]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r35" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[30..29] ; Input ; Info     ; Stuck at VCC      ;
+; in[14..12] ; Input ; Info     ; Stuck at VCC      ;
+; in[9..8]   ; Input ; Info     ; Stuck at VCC      ;
+; in[28..27] ; Input ; Info     ; Stuck at GND      ;
+; in[23..20] ; Input ; Info     ; Stuck at GND      ;
+; in[16..15] ; Input ; Info     ; Stuck at GND      ;
+; in[11..10] ; Input ; Info     ; Stuck at GND      ;
+; in[1..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[26]     ; Input ; Info     ; Stuck at VCC      ;
+; in[25]     ; Input ; Info     ; Stuck at GND      ;
+; in[24]     ; Input ; Info     ; Stuck at VCC      ;
+; in[19]     ; Input ; Info     ; Stuck at VCC      ;
+; in[18]     ; Input ; Info     ; Stuck at GND      ;
+; in[17]     ; Input ; Info     ; Stuck at VCC      ;
+; in[7]      ; Input ; Info     ; Stuck at GND      ;
+; in[6]      ; Input ; Info     ; Stuck at VCC      ;
+; in[5]      ; Input ; Info     ; Stuck at GND      ;
+; in[4]      ; Input ; Info     ; Stuck at VCC      ;
+; in[3]      ; Input ; Info     ; Stuck at GND      ;
+; in[2]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r34" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[25..24] ; Input ; Info     ; Stuck at VCC      ;
+; in[21..19] ; Input ; Info     ; Stuck at VCC      ;
+; in[11..10] ; Input ; Info     ; Stuck at VCC      ;
+; in[1..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[27..26] ; Input ; Info     ; Stuck at GND      ;
+; in[23..22] ; Input ; Info     ; Stuck at GND      ;
+; in[18..12] ; Input ; Info     ; Stuck at GND      ;
+; in[7..5]   ; Input ; Info     ; Stuck at GND      ;
+; in[3..2]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[30]     ; Input ; Info     ; Stuck at VCC      ;
+; in[29]     ; Input ; Info     ; Stuck at GND      ;
+; in[28]     ; Input ; Info     ; Stuck at VCC      ;
+; in[9]      ; Input ; Info     ; Stuck at GND      ;
+; in[8]      ; Input ; Info     ; Stuck at VCC      ;
+; in[4]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r33" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[27..26] ; Input ; Info     ; Stuck at VCC      ;
+; in[19..18] ; Input ; Info     ; Stuck at VCC      ;
+; in[14..13] ; Input ; Info     ; Stuck at VCC      ;
+; in[11..10] ; Input ; Info     ; Stuck at VCC      ;
+; in[8..2]   ; Input ; Info     ; Stuck at VCC      ;
+; in[29..28] ; Input ; Info     ; Stuck at GND      ;
+; in[23..22] ; Input ; Info     ; Stuck at GND      ;
+; in[17..15] ; Input ; Info     ; Stuck at GND      ;
+; in[1..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[30]     ; Input ; Info     ; Stuck at VCC      ;
+; in[25]     ; Input ; Info     ; Stuck at GND      ;
+; in[24]     ; Input ; Info     ; Stuck at VCC      ;
+; in[21]     ; Input ; Info     ; Stuck at VCC      ;
+; in[20]     ; Input ; Info     ; Stuck at GND      ;
+; in[12]     ; Input ; Info     ; Stuck at GND      ;
+; in[9]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r32" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[27..25] ; Input ; Info     ; Stuck at VCC      ;
+; in[20..19] ; Input ; Info     ; Stuck at VCC      ;
+; in[17..16] ; Input ; Info     ; Stuck at VCC      ;
+; in[5..3]   ; Input ; Info     ; Stuck at VCC      ;
+; in[31..30] ; Input ; Info     ; Stuck at GND      ;
+; in[24..21] ; Input ; Info     ; Stuck at GND      ;
+; in[15..14] ; Input ; Info     ; Stuck at GND      ;
+; in[12..9]  ; Input ; Info     ; Stuck at GND      ;
+; in[7..6]   ; Input ; Info     ; Stuck at GND      ;
+; in[2..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[29]     ; Input ; Info     ; Stuck at VCC      ;
+; in[28]     ; Input ; Info     ; Stuck at GND      ;
+; in[18]     ; Input ; Info     ; Stuck at GND      ;
+; in[13]     ; Input ; Info     ; Stuck at VCC      ;
+; in[8]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r31" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[26..23] ; Input ; Info     ; Stuck at VCC      ;
+; in[21..20] ; Input ; Info     ; Stuck at VCC      ;
+; in[18..16] ; Input ; Info     ; Stuck at VCC      ;
+; in[31..30] ; Input ; Info     ; Stuck at GND      ;
+; in[28..27] ; Input ; Info     ; Stuck at GND      ;
+; in[15..12] ; Input ; Info     ; Stuck at GND      ;
+; in[6..3]   ; Input ; Info     ; Stuck at GND      ;
+; in[29]     ; Input ; Info     ; Stuck at VCC      ;
+; in[22]     ; Input ; Info     ; Stuck at GND      ;
+; in[19]     ; Input ; Info     ; Stuck at GND      ;
+; in[11]     ; Input ; Info     ; Stuck at VCC      ;
+; in[10]     ; Input ; Info     ; Stuck at GND      ;
+; in[9]      ; Input ; Info     ; Stuck at VCC      ;
+; in[8]      ; Input ; Info     ; Stuck at GND      ;
+; in[7]      ; Input ; Info     ; Stuck at VCC      ;
+; in[2]      ; Input ; Info     ; Stuck at VCC      ;
+; in[1]      ; Input ; Info     ; Stuck at GND      ;
+; in[0]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r30" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[6..5]   ; Input ; Info     ; Stuck at VCC      ;
+; in[2..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[31..29] ; Input ; Info     ; Stuck at GND      ;
+; in[25..22] ; Input ; Info     ; Stuck at GND      ;
+; in[18..17] ; Input ; Info     ; Stuck at GND      ;
+; in[15..14] ; Input ; Info     ; Stuck at GND      ;
+; in[10..9]  ; Input ; Info     ; Stuck at GND      ;
+; in[4..3]   ; Input ; Info     ; Stuck at GND      ;
+; in[28]     ; Input ; Info     ; Stuck at VCC      ;
+; in[27]     ; Input ; Info     ; Stuck at GND      ;
+; in[26]     ; Input ; Info     ; Stuck at VCC      ;
+; in[21]     ; Input ; Info     ; Stuck at VCC      ;
+; in[20]     ; Input ; Info     ; Stuck at GND      ;
+; in[19]     ; Input ; Info     ; Stuck at VCC      ;
+; in[16]     ; Input ; Info     ; Stuck at VCC      ;
+; in[13]     ; Input ; Info     ; Stuck at VCC      ;
+; in[12]     ; Input ; Info     ; Stuck at GND      ;
+; in[11]     ; Input ; Info     ; Stuck at VCC      ;
+; in[8]      ; Input ; Info     ; Stuck at VCC      ;
+; in[7]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r29" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[26..25] ; Input ; Info     ; Stuck at VCC      ;
+; in[23..22] ; Input ; Info     ; Stuck at VCC      ;
+; in[14..13] ; Input ; Info     ; Stuck at VCC      ;
+; in[9..8]   ; Input ; Info     ; Stuck at VCC      ;
+; in[31..27] ; Input ; Info     ; Stuck at GND      ;
+; in[21..20] ; Input ; Info     ; Stuck at GND      ;
+; in[16..15] ; Input ; Info     ; Stuck at GND      ;
+; in[12..10] ; Input ; Info     ; Stuck at GND      ;
+; in[3..1]   ; Input ; Info     ; Stuck at GND      ;
+; in[24]     ; Input ; Info     ; Stuck at GND      ;
+; in[19]     ; Input ; Info     ; Stuck at VCC      ;
+; in[18]     ; Input ; Info     ; Stuck at GND      ;
+; in[17]     ; Input ; Info     ; Stuck at VCC      ;
+; in[7]      ; Input ; Info     ; Stuck at GND      ;
+; in[6]      ; Input ; Info     ; Stuck at VCC      ;
+; in[5]      ; Input ; Info     ; Stuck at GND      ;
+; in[4]      ; Input ; Info     ; Stuck at VCC      ;
+; in[0]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r28" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[31..30] ; Input ; Info     ; Stuck at VCC      ;
+; in[24..23] ; Input ; Info     ; Stuck at VCC      ;
+; in[18..15] ; Input ; Info     ; Stuck at VCC      ;
+; in[2..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[20..19] ; Input ; Info     ; Stuck at GND      ;
+; in[14..13] ; Input ; Info     ; Stuck at GND      ;
+; in[11..9]  ; Input ; Info     ; Stuck at GND      ;
+; in[5..3]   ; Input ; Info     ; Stuck at GND      ;
+; in[29]     ; Input ; Info     ; Stuck at GND      ;
+; in[28]     ; Input ; Info     ; Stuck at VCC      ;
+; in[27]     ; Input ; Info     ; Stuck at GND      ;
+; in[26]     ; Input ; Info     ; Stuck at VCC      ;
+; in[25]     ; Input ; Info     ; Stuck at GND      ;
+; in[22]     ; Input ; Info     ; Stuck at GND      ;
+; in[21]     ; Input ; Info     ; Stuck at VCC      ;
+; in[12]     ; Input ; Info     ; Stuck at VCC      ;
+; in[8]      ; Input ; Info     ; Stuck at VCC      ;
+; in[7]      ; Input ; Info     ; Stuck at GND      ;
+; in[6]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r27" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[31..30] ; Input ; Info     ; Stuck at VCC      ;
+; in[26..25] ; Input ; Info     ; Stuck at VCC      ;
+; in[23..21] ; Input ; Info     ; Stuck at VCC      ;
+; in[9..4]   ; Input ; Info     ; Stuck at VCC      ;
+; in[1..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[29..27] ; Input ; Info     ; Stuck at GND      ;
+; in[20..12] ; Input ; Info     ; Stuck at GND      ;
+; in[3..2]   ; Input ; Info     ; Stuck at GND      ;
+; in[24]     ; Input ; Info     ; Stuck at GND      ;
+; in[11]     ; Input ; Info     ; Stuck at VCC      ;
+; in[10]     ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r26" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[29..24] ; Input ; Info     ; Stuck at VCC      ;
+; in[20..19] ; Input ; Info     ; Stuck at VCC      ;
+; in[14..6]  ; Input ; Info     ; Stuck at VCC      ;
+; in[2..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[18..17] ; Input ; Info     ; Stuck at GND      ;
+; in[5..3]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[30]     ; Input ; Info     ; Stuck at GND      ;
+; in[23]     ; Input ; Info     ; Stuck at GND      ;
+; in[22]     ; Input ; Info     ; Stuck at VCC      ;
+; in[21]     ; Input ; Info     ; Stuck at GND      ;
+; in[16]     ; Input ; Info     ; Stuck at VCC      ;
+; in[15]     ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r25" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[29..28] ; Input ; Info     ; Stuck at VCC      ;
+; in[17..16] ; Input ; Info     ; Stuck at VCC      ;
+; in[10..6]  ; Input ; Info     ; Stuck at VCC      ;
+; in[27..18] ; Input ; Info     ; Stuck at GND      ;
+; in[15..14] ; Input ; Info     ; Stuck at GND      ;
+; in[12..11] ; Input ; Info     ; Stuck at GND      ;
+; in[5..4]   ; Input ; Info     ; Stuck at GND      ;
+; in[2..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[30]     ; Input ; Info     ; Stuck at GND      ;
+; in[13]     ; Input ; Info     ; Stuck at VCC      ;
+; in[3]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r24" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[21..20] ; Input ; Info     ; Stuck at VCC      ;
+; in[16..14] ; Input ; Info     ; Stuck at VCC      ;
+; in[10..9]  ; Input ; Info     ; Stuck at VCC      ;
+; in[6..5]   ; Input ; Info     ; Stuck at VCC      ;
+; in[3..2]   ; Input ; Info     ; Stuck at VCC      ;
+; in[26..22] ; Input ; Info     ; Stuck at GND      ;
+; in[19..17] ; Input ; Info     ; Stuck at GND      ;
+; in[13..11] ; Input ; Info     ; Stuck at GND      ;
+; in[8..7]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[30]     ; Input ; Info     ; Stuck at GND      ;
+; in[29]     ; Input ; Info     ; Stuck at VCC      ;
+; in[28]     ; Input ; Info     ; Stuck at GND      ;
+; in[27]     ; Input ; Info     ; Stuck at VCC      ;
+; in[4]      ; Input ; Info     ; Stuck at GND      ;
+; in[1]      ; Input ; Info     ; Stuck at GND      ;
+; in[0]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r23" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[28..27] ; Input ; Info     ; Stuck at VCC      ;
+; in[21..17] ; Input ; Info     ; Stuck at VCC      ;
+; in[30..29] ; Input ; Info     ; Stuck at GND      ;
+; in[26..22] ; Input ; Info     ; Stuck at GND      ;
+; in[16..15] ; Input ; Info     ; Stuck at GND      ;
+; in[11..9]  ; Input ; Info     ; Stuck at GND      ;
+; in[3..2]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[14]     ; Input ; Info     ; Stuck at VCC      ;
+; in[13]     ; Input ; Info     ; Stuck at GND      ;
+; in[12]     ; Input ; Info     ; Stuck at VCC      ;
+; in[8]      ; Input ; Info     ; Stuck at VCC      ;
+; in[7]      ; Input ; Info     ; Stuck at GND      ;
+; in[6]      ; Input ; Info     ; Stuck at VCC      ;
+; in[5]      ; Input ; Info     ; Stuck at GND      ;
+; in[4]      ; Input ; Info     ; Stuck at VCC      ;
+; in[1]      ; Input ; Info     ; Stuck at VCC      ;
+; in[0]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r22" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[30..28] ; Input ; Info     ; Stuck at VCC      ;
+; in[26..25] ; Input ; Info     ; Stuck at VCC      ;
+; in[23..19] ; Input ; Info     ; Stuck at VCC      ;
+; in[16..15] ; Input ; Info     ; Stuck at VCC      ;
+; in[7..6]   ; Input ; Info     ; Stuck at VCC      ;
+; in[4..3]   ; Input ; Info     ; Stuck at VCC      ;
+; in[18..17] ; Input ; Info     ; Stuck at GND      ;
+; in[14..12] ; Input ; Info     ; Stuck at GND      ;
+; in[10..8]  ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[27]     ; Input ; Info     ; Stuck at GND      ;
+; in[24]     ; Input ; Info     ; Stuck at GND      ;
+; in[11]     ; Input ; Info     ; Stuck at VCC      ;
+; in[5]      ; Input ; Info     ; Stuck at GND      ;
+; in[2]      ; Input ; Info     ; Stuck at GND      ;
+; in[1]      ; Input ; Info     ; Stuck at VCC      ;
+; in[0]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r21" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[28..26] ; Input ; Info     ; Stuck at VCC      ;
+; in[21..20] ; Input ; Info     ; Stuck at VCC      ;
+; in[8..6]   ; Input ; Info     ; Stuck at VCC      ;
+; in[4..2]   ; Input ; Info     ; Stuck at VCC      ;
+; in[25..24] ; Input ; Info     ; Stuck at GND      ;
+; in[19..16] ; Input ; Info     ; Stuck at GND      ;
+; in[10..9]  ; Input ; Info     ; Stuck at GND      ;
+; in[1..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[30]     ; Input ; Info     ; Stuck at VCC      ;
+; in[29]     ; Input ; Info     ; Stuck at GND      ;
+; in[23]     ; Input ; Info     ; Stuck at VCC      ;
+; in[22]     ; Input ; Info     ; Stuck at GND      ;
+; in[15]     ; Input ; Info     ; Stuck at VCC      ;
+; in[14]     ; Input ; Info     ; Stuck at GND      ;
+; in[13]     ; Input ; Info     ; Stuck at VCC      ;
+; in[12]     ; Input ; Info     ; Stuck at GND      ;
+; in[11]     ; Input ; Info     ; Stuck at VCC      ;
+; in[5]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r20" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[22..20] ; Input ; Info     ; Stuck at VCC      ;
+; in[29..28] ; Input ; Info     ; Stuck at GND      ;
+; in[24..23] ; Input ; Info     ; Stuck at GND      ;
+; in[17..16] ; Input ; Info     ; Stuck at GND      ;
+; in[14..11] ; Input ; Info     ; Stuck at GND      ;
+; in[9..8]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[30]     ; Input ; Info     ; Stuck at VCC      ;
+; in[27]     ; Input ; Info     ; Stuck at VCC      ;
+; in[26]     ; Input ; Info     ; Stuck at GND      ;
+; in[25]     ; Input ; Info     ; Stuck at VCC      ;
+; in[19]     ; Input ; Info     ; Stuck at GND      ;
+; in[18]     ; Input ; Info     ; Stuck at VCC      ;
+; in[15]     ; Input ; Info     ; Stuck at VCC      ;
+; in[10]     ; Input ; Info     ; Stuck at VCC      ;
+; in[7]      ; Input ; Info     ; Stuck at VCC      ;
+; in[6]      ; Input ; Info     ; Stuck at GND      ;
+; in[5]      ; Input ; Info     ; Stuck at VCC      ;
+; in[4]      ; Input ; Info     ; Stuck at GND      ;
+; in[3]      ; Input ; Info     ; Stuck at VCC      ;
+; in[2]      ; Input ; Info     ; Stuck at GND      ;
+; in[1]      ; Input ; Info     ; Stuck at VCC      ;
+; in[0]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r61" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[27..26] ; Input ; Info     ; Stuck at VCC      ;
+; in[24..21] ; Input ; Info     ; Stuck at VCC      ;
+; in[11..10] ; Input ; Info     ; Stuck at VCC      ;
+; in[6..5]   ; Input ; Info     ; Stuck at VCC      ;
+; in[3..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[31..30] ; Input ; Info     ; Stuck at GND      ;
+; in[18..17] ; Input ; Info     ; Stuck at GND      ;
+; in[15..14] ; Input ; Info     ; Stuck at GND      ;
+; in[9..7]   ; Input ; Info     ; Stuck at GND      ;
+; in[29]     ; Input ; Info     ; Stuck at VCC      ;
+; in[28]     ; Input ; Info     ; Stuck at GND      ;
+; in[25]     ; Input ; Info     ; Stuck at GND      ;
+; in[20]     ; Input ; Info     ; Stuck at GND      ;
+; in[19]     ; Input ; Info     ; Stuck at VCC      ;
+; in[16]     ; Input ; Info     ; Stuck at VCC      ;
+; in[13]     ; Input ; Info     ; Stuck at VCC      ;
+; in[12]     ; Input ; Info     ; Stuck at GND      ;
+; in[4]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r19" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[19..18] ; Input ; Info     ; Stuck at VCC      ;
+; in[8..6]   ; Input ; Info     ; Stuck at VCC      ;
+; in[3..2]   ; Input ; Info     ; Stuck at VCC      ;
+; in[31..30] ; Input ; Info     ; Stuck at GND      ;
+; in[28..27] ; Input ; Info     ; Stuck at GND      ;
+; in[25..20] ; Input ; Info     ; Stuck at GND      ;
+; in[17..16] ; Input ; Info     ; Stuck at GND      ;
+; in[12..9]  ; Input ; Info     ; Stuck at GND      ;
+; in[5..4]   ; Input ; Info     ; Stuck at GND      ;
+; in[1..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[29]     ; Input ; Info     ; Stuck at VCC      ;
+; in[26]     ; Input ; Info     ; Stuck at VCC      ;
+; in[15]     ; Input ; Info     ; Stuck at VCC      ;
+; in[14]     ; Input ; Info     ; Stuck at GND      ;
+; in[13]     ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r18" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[27..22] ; Input ; Info     ; Stuck at VCC      ;
+; in[16..15] ; Input ; Info     ; Stuck at VCC      ;
+; in[12..10] ; Input ; Info     ; Stuck at VCC      ;
+; in[8..6]   ; Input ; Info     ; Stuck at VCC      ;
+; in[2..1]   ; Input ; Info     ; Stuck at VCC      ;
+; in[31..28] ; Input ; Info     ; Stuck at GND      ;
+; in[21..17] ; Input ; Info     ; Stuck at GND      ;
+; in[14..13] ; Input ; Info     ; Stuck at GND      ;
+; in[5..3]   ; Input ; Info     ; Stuck at GND      ;
+; in[9]      ; Input ; Info     ; Stuck at GND      ;
+; in[0]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r17" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[31..29] ; Input ; Info     ; Stuck at VCC      ;
+; in[27..23] ; Input ; Info     ; Stuck at VCC      ;
+; in[21..17] ; Input ; Info     ; Stuck at VCC      ;
+; in[10..7]  ; Input ; Info     ; Stuck at VCC      ;
+; in[2..1]   ; Input ; Info     ; Stuck at VCC      ;
+; in[16..15] ; Input ; Info     ; Stuck at GND      ;
+; in[13..11] ; Input ; Info     ; Stuck at GND      ;
+; in[6..3]   ; Input ; Info     ; Stuck at GND      ;
+; in[28]     ; Input ; Info     ; Stuck at GND      ;
+; in[22]     ; Input ; Info     ; Stuck at GND      ;
+; in[14]     ; Input ; Info     ; Stuck at VCC      ;
+; in[0]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r16" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[31..29] ; Input ; Info     ; Stuck at VCC      ;
+; in[20..19] ; Input ; Info     ; Stuck at VCC      ;
+; in[17..16] ; Input ; Info     ; Stuck at VCC      ;
+; in[14..13] ; Input ; Info     ; Stuck at VCC      ;
+; in[8..6]   ; Input ; Info     ; Stuck at VCC      ;
+; in[28..27] ; Input ; Info     ; Stuck at GND      ;
+; in[25..24] ; Input ; Info     ; Stuck at GND      ;
+; in[22..21] ; Input ; Info     ; Stuck at GND      ;
+; in[10..9]  ; Input ; Info     ; Stuck at GND      ;
+; in[5..1]   ; Input ; Info     ; Stuck at GND      ;
+; in[26]     ; Input ; Info     ; Stuck at VCC      ;
+; in[23]     ; Input ; Info     ; Stuck at VCC      ;
+; in[18]     ; Input ; Info     ; Stuck at GND      ;
+; in[15]     ; Input ; Info     ; Stuck at GND      ;
+; in[12]     ; Input ; Info     ; Stuck at GND      ;
+; in[11]     ; Input ; Info     ; Stuck at VCC      ;
+; in[0]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r15" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[31..30] ; Input ; Info     ; Stuck at VCC      ;
+; in[24..23] ; Input ; Info     ; Stuck at VCC      ;
+; in[20..19] ; Input ; Info     ; Stuck at VCC      ;
+; in[17..12] ; Input ; Info     ; Stuck at VCC      ;
+; in[6..4]   ; Input ; Info     ; Stuck at VCC      ;
+; in[29..25] ; Input ; Info     ; Stuck at GND      ;
+; in[22..21] ; Input ; Info     ; Stuck at GND      ;
+; in[11..9]  ; Input ; Info     ; Stuck at GND      ;
+; in[1..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[18]     ; Input ; Info     ; Stuck at GND      ;
+; in[8]      ; Input ; Info     ; Stuck at VCC      ;
+; in[7]      ; Input ; Info     ; Stuck at GND      ;
+; in[3]      ; Input ; Info     ; Stuck at GND      ;
+; in[2]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r14" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[28..27] ; Input ; Info     ; Stuck at VCC      ;
+; in[25..22] ; Input ; Info     ; Stuck at VCC      ;
+; in[20..18] ; Input ; Info     ; Stuck at VCC      ;
+; in[10..9]  ; Input ; Info     ; Stuck at VCC      ;
+; in[2..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[30..29] ; Input ; Info     ; Stuck at GND      ;
+; in[17..11] ; Input ; Info     ; Stuck at GND      ;
+; in[4..3]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[26]     ; Input ; Info     ; Stuck at GND      ;
+; in[21]     ; Input ; Info     ; Stuck at GND      ;
+; in[8]      ; Input ; Info     ; Stuck at GND      ;
+; in[7]      ; Input ; Info     ; Stuck at VCC      ;
+; in[6]      ; Input ; Info     ; Stuck at GND      ;
+; in[5]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r13" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[23..22] ; Input ; Info     ; Stuck at VCC      ;
+; in[20..17] ; Input ; Info     ; Stuck at VCC      ;
+; in[13..12] ; Input ; Info     ; Stuck at VCC      ;
+; in[8..1]   ; Input ; Info     ; Stuck at VCC      ;
+; in[30..24] ; Input ; Info     ; Stuck at GND      ;
+; in[11..9]  ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at VCC      ;
+; in[21]     ; Input ; Info     ; Stuck at GND      ;
+; in[16]     ; Input ; Info     ; Stuck at GND      ;
+; in[15]     ; Input ; Info     ; Stuck at VCC      ;
+; in[14]     ; Input ; Info     ; Stuck at GND      ;
+; in[0]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r12" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[30..28] ; Input ; Info     ; Stuck at VCC      ;
+; in[21..17] ; Input ; Info     ; Stuck at VCC      ;
+; in[12..10] ; Input ; Info     ; Stuck at VCC      ;
+; in[6..4]   ; Input ; Info     ; Stuck at VCC      ;
+; in[27..26] ; Input ; Info     ; Stuck at GND      ;
+; in[16..15] ; Input ; Info     ; Stuck at GND      ;
+; in[1..0]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[25]     ; Input ; Info     ; Stuck at VCC      ;
+; in[24]     ; Input ; Info     ; Stuck at GND      ;
+; in[23]     ; Input ; Info     ; Stuck at VCC      ;
+; in[22]     ; Input ; Info     ; Stuck at GND      ;
+; in[14]     ; Input ; Info     ; Stuck at VCC      ;
+; in[13]     ; Input ; Info     ; Stuck at GND      ;
+; in[9]      ; Input ; Info     ; Stuck at GND      ;
+; in[8]      ; Input ; Info     ; Stuck at VCC      ;
+; in[7]      ; Input ; Info     ; Stuck at GND      ;
+; in[3]      ; Input ; Info     ; Stuck at GND      ;
+; in[2]      ; Input ; Info     ; Stuck at VCC      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r11" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[19..18] ; Input ; Info     ; Stuck at VCC      ;
+; in[14..10] ; Input ; Info     ; Stuck at VCC      ;
+; in[8..6]   ; Input ; Info     ; Stuck at VCC      ;
+; in[1..0]   ; Input ; Info     ; Stuck at VCC      ;
+; in[23..20] ; Input ; Info     ; Stuck at GND      ;
+; in[17..15] ; Input ; Info     ; Stuck at GND      ;
+; in[5..2]   ; Input ; Info     ; Stuck at GND      ;
+; in[31]     ; Input ; Info     ; Stuck at GND      ;
+; in[30]     ; Input ; Info     ; Stuck at VCC      ;
+; in[29]     ; Input ; Info     ; Stuck at GND      ;
+; in[28]     ; Input ; Info     ; Stuck at VCC      ;
+; in[27]     ; Input ; Info     ; Stuck at GND      ;
+; in[26]     ; Input ; Info     ; Stuck at VCC      ;
+; in[25]     ; Input ; Info     ; Stuck at GND      ;
+; in[24]     ; Input ; Info     ; Stuck at VCC      ;
+; in[9]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r10" ;
++------------+-------+----------+-------------------+
+; Port       ; Type  ; Severity ; Details           ;
++------------+-------+----------+-------------------+
+; in[21..20] ; Input ; Info     ; Stuck at VCC      ;
+; in[16..15] ; Input ; Info     ; Stuck at VCC      ;
+; in[8..7]   ; Input ; Info     ; Stuck at VCC      ;
+; in[5..1]   ; Input ; Info     ; Stuck at VCC      ;
+; in[31..30] ; Input ; Info     ; Stuck at GND      ;
+; in[28..27] ; Input ; Info     ; Stuck at GND      ;
+; in[25..22] ; Input ; Info     ; Stuck at GND      ;
+; in[19..17] ; Input ; Info     ; Stuck at GND      ;
+; in[14..11] ; Input ; Info     ; Stuck at GND      ;
+; in[29]     ; Input ; Info     ; Stuck at VCC      ;
+; in[26]     ; Input ; Info     ; Stuck at VCC      ;
+; in[10]     ; Input ; Info     ; Stuck at VCC      ;
+; in[9]      ; Input ; Info     ; Stuck at GND      ;
+; in[6]      ; Input ; Info     ; Stuck at GND      ;
+; in[0]      ; Input ; Info     ; Stuck at GND      ;
+; clr        ; Input ; Info     ; Stuck at GND      ;
+; clk_en     ; Input ; Info     ; Stuck at GND      ;
++------------+-------+----------+-------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r9" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[17..16] ; Input ; Info     ; Stuck at VCC     ;
+; in[12..11] ; Input ; Info     ; Stuck at VCC     ;
+; in[9..8]   ; Input ; Info     ; Stuck at VCC     ;
+; in[31..29] ; Input ; Info     ; Stuck at GND     ;
+; in[27..26] ; Input ; Info     ; Stuck at GND     ;
+; in[22..18] ; Input ; Info     ; Stuck at GND     ;
+; in[7..1]   ; Input ; Info     ; Stuck at GND     ;
+; in[28]     ; Input ; Info     ; Stuck at VCC     ;
+; in[25]     ; Input ; Info     ; Stuck at VCC     ;
+; in[24]     ; Input ; Info     ; Stuck at GND     ;
+; in[23]     ; Input ; Info     ; Stuck at VCC     ;
+; in[15]     ; Input ; Info     ; Stuck at GND     ;
+; in[14]     ; Input ; Info     ; Stuck at VCC     ;
+; in[13]     ; Input ; Info     ; Stuck at GND     ;
+; in[10]     ; Input ; Info     ; Stuck at GND     ;
+; in[0]      ; Input ; Info     ; Stuck at VCC     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r8" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[31..30] ; Input ; Info     ; Stuck at VCC     ;
+; in[28..27] ; Input ; Info     ; Stuck at VCC     ;
+; in[18..15] ; Input ; Info     ; Stuck at VCC     ;
+; in[4..3]   ; Input ; Info     ; Stuck at VCC     ;
+; in[26..19] ; Input ; Info     ; Stuck at GND     ;
+; in[6..5]   ; Input ; Info     ; Stuck at GND     ;
+; in[2..0]   ; Input ; Info     ; Stuck at GND     ;
+; in[29]     ; Input ; Info     ; Stuck at GND     ;
+; in[14]     ; Input ; Info     ; Stuck at GND     ;
+; in[13]     ; Input ; Info     ; Stuck at VCC     ;
+; in[12]     ; Input ; Info     ; Stuck at GND     ;
+; in[11]     ; Input ; Info     ; Stuck at VCC     ;
+; in[10]     ; Input ; Info     ; Stuck at GND     ;
+; in[9]      ; Input ; Info     ; Stuck at VCC     ;
+; in[8]      ; Input ; Info     ; Stuck at GND     ;
+; in[7]      ; Input ; Info     ; Stuck at VCC     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r7" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[25..24] ; Input ; Info     ; Stuck at VCC     ;
+; in[20..18] ; Input ; Info     ; Stuck at VCC     ;
+; in[12..9]  ; Input ; Info     ; Stuck at VCC     ;
+; in[7..6]   ; Input ; Info     ; Stuck at VCC     ;
+; in[23..21] ; Input ; Info     ; Stuck at GND     ;
+; in[17..15] ; Input ; Info     ; Stuck at GND     ;
+; in[31]     ; Input ; Info     ; Stuck at VCC     ;
+; in[30]     ; Input ; Info     ; Stuck at GND     ;
+; in[29]     ; Input ; Info     ; Stuck at VCC     ;
+; in[28]     ; Input ; Info     ; Stuck at GND     ;
+; in[27]     ; Input ; Info     ; Stuck at VCC     ;
+; in[26]     ; Input ; Info     ; Stuck at GND     ;
+; in[14]     ; Input ; Info     ; Stuck at VCC     ;
+; in[13]     ; Input ; Info     ; Stuck at GND     ;
+; in[8]      ; Input ; Info     ; Stuck at GND     ;
+; in[5]      ; Input ; Info     ; Stuck at GND     ;
+; in[4]      ; Input ; Info     ; Stuck at VCC     ;
+; in[3]      ; Input ; Info     ; Stuck at GND     ;
+; in[2]      ; Input ; Info     ; Stuck at VCC     ;
+; in[1]      ; Input ; Info     ; Stuck at GND     ;
+; in[0]      ; Input ; Info     ; Stuck at VCC     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r6" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[21..15] ; Input ; Info     ; Stuck at VCC     ;
+; in[30..29] ; Input ; Info     ; Stuck at GND     ;
+; in[27..26] ; Input ; Info     ; Stuck at GND     ;
+; in[24..22] ; Input ; Info     ; Stuck at GND     ;
+; in[14..10] ; Input ; Info     ; Stuck at GND     ;
+; in[4..3]   ; Input ; Info     ; Stuck at GND     ;
+; in[1..0]   ; Input ; Info     ; Stuck at GND     ;
+; in[31]     ; Input ; Info     ; Stuck at VCC     ;
+; in[28]     ; Input ; Info     ; Stuck at VCC     ;
+; in[25]     ; Input ; Info     ; Stuck at VCC     ;
+; in[9]      ; Input ; Info     ; Stuck at VCC     ;
+; in[8]      ; Input ; Info     ; Stuck at GND     ;
+; in[7]      ; Input ; Info     ; Stuck at VCC     ;
+; in[6]      ; Input ; Info     ; Stuck at GND     ;
+; in[5]      ; Input ; Info     ; Stuck at VCC     ;
+; in[2]      ; Input ; Info     ; Stuck at VCC     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r5" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[28..27] ; Input ; Info     ; Stuck at VCC     ;
+; in[24..20] ; Input ; Info     ; Stuck at VCC     ;
+; in[8..4]   ; Input ; Info     ; Stuck at VCC     ;
+; in[26..25] ; Input ; Info     ; Stuck at GND     ;
+; in[19..17] ; Input ; Info     ; Stuck at GND     ;
+; in[15..13] ; Input ; Info     ; Stuck at GND     ;
+; in[11..9]  ; Input ; Info     ; Stuck at GND     ;
+; in[3..1]   ; Input ; Info     ; Stuck at GND     ;
+; in[31]     ; Input ; Info     ; Stuck at GND     ;
+; in[30]     ; Input ; Info     ; Stuck at VCC     ;
+; in[29]     ; Input ; Info     ; Stuck at GND     ;
+; in[16]     ; Input ; Info     ; Stuck at VCC     ;
+; in[12]     ; Input ; Info     ; Stuck at VCC     ;
+; in[0]      ; Input ; Info     ; Stuck at VCC     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r4" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[29..27] ; Input ; Info     ; Stuck at VCC     ;
+; in[18..17] ; Input ; Info     ; Stuck at VCC     ;
+; in[15..14] ; Input ; Info     ; Stuck at VCC     ;
+; in[4..3]   ; Input ; Info     ; Stuck at VCC     ;
+; in[1..0]   ; Input ; Info     ; Stuck at VCC     ;
+; in[31..30] ; Input ; Info     ; Stuck at GND     ;
+; in[26..25] ; Input ; Info     ; Stuck at GND     ;
+; in[13..10] ; Input ; Info     ; Stuck at GND     ;
+; in[8..7]   ; Input ; Info     ; Stuck at GND     ;
+; in[24]     ; Input ; Info     ; Stuck at VCC     ;
+; in[23]     ; Input ; Info     ; Stuck at GND     ;
+; in[22]     ; Input ; Info     ; Stuck at VCC     ;
+; in[21]     ; Input ; Info     ; Stuck at GND     ;
+; in[20]     ; Input ; Info     ; Stuck at VCC     ;
+; in[19]     ; Input ; Info     ; Stuck at GND     ;
+; in[16]     ; Input ; Info     ; Stuck at GND     ;
+; in[9]      ; Input ; Info     ; Stuck at VCC     ;
+; in[6]      ; Input ; Info     ; Stuck at VCC     ;
+; in[5]      ; Input ; Info     ; Stuck at GND     ;
+; in[2]      ; Input ; Info     ; Stuck at GND     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r3" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[31..29] ; Input ; Info     ; Stuck at VCC     ;
+; in[24..23] ; Input ; Info     ; Stuck at VCC     ;
+; in[21..20] ; Input ; Info     ; Stuck at VCC     ;
+; in[16..14] ; Input ; Info     ; Stuck at VCC     ;
+; in[12..11] ; Input ; Info     ; Stuck at VCC     ;
+; in[9..7]   ; Input ; Info     ; Stuck at VCC     ;
+; in[26..25] ; Input ; Info     ; Stuck at GND     ;
+; in[4..3]   ; Input ; Info     ; Stuck at GND     ;
+; in[28]     ; Input ; Info     ; Stuck at GND     ;
+; in[27]     ; Input ; Info     ; Stuck at VCC     ;
+; in[22]     ; Input ; Info     ; Stuck at GND     ;
+; in[19]     ; Input ; Info     ; Stuck at GND     ;
+; in[18]     ; Input ; Info     ; Stuck at VCC     ;
+; in[17]     ; Input ; Info     ; Stuck at GND     ;
+; in[13]     ; Input ; Info     ; Stuck at GND     ;
+; in[10]     ; Input ; Info     ; Stuck at GND     ;
+; in[6]      ; Input ; Info     ; Stuck at GND     ;
+; in[5]      ; Input ; Info     ; Stuck at VCC     ;
+; in[2]      ; Input ; Info     ; Stuck at VCC     ;
+; in[1]      ; Input ; Info     ; Stuck at GND     ;
+; in[0]      ; Input ; Info     ; Stuck at VCC     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r2" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[29..28] ; Input ; Info     ; Stuck at VCC     ;
+; in[24..22] ; Input ; Info     ; Stuck at VCC     ;
+; in[15..11] ; Input ; Info     ; Stuck at VCC     ;
+; in[9..6]   ; Input ; Info     ; Stuck at VCC     ;
+; in[3..0]   ; Input ; Info     ; Stuck at VCC     ;
+; in[21..16] ; Input ; Info     ; Stuck at GND     ;
+; in[5..4]   ; Input ; Info     ; Stuck at GND     ;
+; in[31]     ; Input ; Info     ; Stuck at VCC     ;
+; in[30]     ; Input ; Info     ; Stuck at GND     ;
+; in[27]     ; Input ; Info     ; Stuck at GND     ;
+; in[26]     ; Input ; Info     ; Stuck at VCC     ;
+; in[25]     ; Input ; Info     ; Stuck at GND     ;
+; in[10]     ; Input ; Info     ; Stuck at GND     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r1" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[30..28] ; Input ; Info     ; Stuck at VCC     ;
+; in[21..20] ; Input ; Info     ; Stuck at VCC     ;
+; in[18..16] ; Input ; Info     ; Stuck at VCC     ;
+; in[27..25] ; Input ; Info     ; Stuck at GND     ;
+; in[23..22] ; Input ; Info     ; Stuck at GND     ;
+; in[13..11] ; Input ; Info     ; Stuck at GND     ;
+; in[9..8]   ; Input ; Info     ; Stuck at GND     ;
+; in[6..5]   ; Input ; Info     ; Stuck at GND     ;
+; in[3..1]   ; Input ; Info     ; Stuck at GND     ;
+; in[31]     ; Input ; Info     ; Stuck at GND     ;
+; in[24]     ; Input ; Info     ; Stuck at VCC     ;
+; in[19]     ; Input ; Info     ; Stuck at GND     ;
+; in[15]     ; Input ; Info     ; Stuck at GND     ;
+; in[14]     ; Input ; Info     ; Stuck at VCC     ;
+; in[10]     ; Input ; Info     ; Stuck at VCC     ;
+; in[7]      ; Input ; Info     ; Stuck at VCC     ;
+; in[4]      ; Input ; Info     ; Stuck at VCC     ;
+; in[0]      ; Input ; Info     ; Stuck at VCC     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk|register:r0" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[11..7]  ; Input ; Info     ; Stuck at VCC     ;
+; in[4..3]   ; Input ; Info     ; Stuck at VCC     ;
+; in[29..26] ; Input ; Info     ; Stuck at GND     ;
+; in[22..20] ; Input ; Info     ; Stuck at GND     ;
+; in[16..14] ; Input ; Info     ; Stuck at GND     ;
+; in[6..5]   ; Input ; Info     ; Stuck at GND     ;
+; in[2..0]   ; Input ; Info     ; Stuck at GND     ;
+; in[31]     ; Input ; Info     ; Stuck at GND     ;
+; in[30]     ; Input ; Info     ; Stuck at VCC     ;
+; in[25]     ; Input ; Info     ; Stuck at VCC     ;
+; in[24]     ; Input ; Info     ; Stuck at GND     ;
+; in[23]     ; Input ; Info     ; Stuck at VCC     ;
+; in[19]     ; Input ; Info     ; Stuck at VCC     ;
+; in[18]     ; Input ; Info     ; Stuck at GND     ;
+; in[17]     ; Input ; Info     ; Stuck at VCC     ;
+; in[13]     ; Input ; Info     ; Stuck at VCC     ;
+; in[12]     ; Input ; Info     ; Stuck at GND     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "reg_k:rk"                                                                           ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; out  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_h:rh|register:r7" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[28..27] ; Input ; Info     ; Stuck at VCC     ;
+; in[25..21] ; Input ; Info     ; Stuck at VCC     ;
+; in[15..14] ; Input ; Info     ; Stuck at VCC     ;
+; in[11..10] ; Input ; Info     ; Stuck at VCC     ;
+; in[4..3]   ; Input ; Info     ; Stuck at VCC     ;
+; in[20..16] ; Input ; Info     ; Stuck at GND     ;
+; in[13..12] ; Input ; Info     ; Stuck at GND     ;
+; in[7..5]   ; Input ; Info     ; Stuck at GND     ;
+; in[2..1]   ; Input ; Info     ; Stuck at GND     ;
+; in[31]     ; Input ; Info     ; Stuck at GND     ;
+; in[30]     ; Input ; Info     ; Stuck at VCC     ;
+; in[29]     ; Input ; Info     ; Stuck at GND     ;
+; in[26]     ; Input ; Info     ; Stuck at GND     ;
+; in[9]      ; Input ; Info     ; Stuck at GND     ;
+; in[8]      ; Input ; Info     ; Stuck at VCC     ;
+; in[0]      ; Input ; Info     ; Stuck at VCC     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_h:rh|register:r6" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[28..23] ; Input ; Info     ; Stuck at VCC     ;
+; in[17..14] ; Input ; Info     ; Stuck at VCC     ;
+; in[12..11] ; Input ; Info     ; Stuck at VCC     ;
+; in[8..7]   ; Input ; Info     ; Stuck at VCC     ;
+; in[1..0]   ; Input ; Info     ; Stuck at VCC     ;
+; in[31..29] ; Input ; Info     ; Stuck at GND     ;
+; in[22..18] ; Input ; Info     ; Stuck at GND     ;
+; in[10..9]  ; Input ; Info     ; Stuck at GND     ;
+; in[13]     ; Input ; Info     ; Stuck at GND     ;
+; in[6]      ; Input ; Info     ; Stuck at GND     ;
+; in[5]      ; Input ; Info     ; Stuck at VCC     ;
+; in[4]      ; Input ; Info     ; Stuck at GND     ;
+; in[3]      ; Input ; Info     ; Stuck at VCC     ;
+; in[2]      ; Input ; Info     ; Stuck at GND     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_h:rh|register:r5" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[28..27] ; Input ; Info     ; Stuck at VCC     ;
+; in[25..24] ; Input ; Info     ; Stuck at VCC     ;
+; in[14..13] ; Input ; Info     ; Stuck at VCC     ;
+; in[3..2]   ; Input ; Info     ; Stuck at VCC     ;
+; in[30..29] ; Input ; Info     ; Stuck at GND     ;
+; in[23..19] ; Input ; Info     ; Stuck at GND     ;
+; in[10..8]  ; Input ; Info     ; Stuck at GND     ;
+; in[6..4]   ; Input ; Info     ; Stuck at GND     ;
+; in[1..0]   ; Input ; Info     ; Stuck at GND     ;
+; in[31]     ; Input ; Info     ; Stuck at VCC     ;
+; in[26]     ; Input ; Info     ; Stuck at GND     ;
+; in[18]     ; Input ; Info     ; Stuck at VCC     ;
+; in[17]     ; Input ; Info     ; Stuck at GND     ;
+; in[16]     ; Input ; Info     ; Stuck at VCC     ;
+; in[15]     ; Input ; Info     ; Stuck at GND     ;
+; in[12]     ; Input ; Info     ; Stuck at GND     ;
+; in[11]     ; Input ; Info     ; Stuck at VCC     ;
+; in[7]      ; Input ; Info     ; Stuck at VCC     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_h:rh|register:r4" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[19..17] ; Input ; Info     ; Stuck at VCC     ;
+; in[6..0]   ; Input ; Info     ; Stuck at VCC     ;
+; in[27..25] ; Input ; Info     ; Stuck at GND     ;
+; in[23..20] ; Input ; Info     ; Stuck at GND     ;
+; in[16..15] ; Input ; Info     ; Stuck at GND     ;
+; in[11..10] ; Input ; Info     ; Stuck at GND     ;
+; in[8..7]   ; Input ; Info     ; Stuck at GND     ;
+; in[31]     ; Input ; Info     ; Stuck at GND     ;
+; in[30]     ; Input ; Info     ; Stuck at VCC     ;
+; in[29]     ; Input ; Info     ; Stuck at GND     ;
+; in[28]     ; Input ; Info     ; Stuck at VCC     ;
+; in[24]     ; Input ; Info     ; Stuck at VCC     ;
+; in[14]     ; Input ; Info     ; Stuck at VCC     ;
+; in[13]     ; Input ; Info     ; Stuck at GND     ;
+; in[12]     ; Input ; Info     ; Stuck at VCC     ;
+; in[9]      ; Input ; Info     ; Stuck at VCC     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_h:rh|register:r3" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[19..12] ; Input ; Info     ; Stuck at VCC     ;
+; in[5..3]   ; Input ; Info     ; Stuck at VCC     ;
+; in[28..27] ; Input ; Info     ; Stuck at GND     ;
+; in[21..20] ; Input ; Info     ; Stuck at GND     ;
+; in[7..6]   ; Input ; Info     ; Stuck at GND     ;
+; in[31]     ; Input ; Info     ; Stuck at VCC     ;
+; in[30]     ; Input ; Info     ; Stuck at GND     ;
+; in[29]     ; Input ; Info     ; Stuck at VCC     ;
+; in[26]     ; Input ; Info     ; Stuck at VCC     ;
+; in[25]     ; Input ; Info     ; Stuck at GND     ;
+; in[24]     ; Input ; Info     ; Stuck at VCC     ;
+; in[23]     ; Input ; Info     ; Stuck at GND     ;
+; in[22]     ; Input ; Info     ; Stuck at VCC     ;
+; in[11]     ; Input ; Info     ; Stuck at GND     ;
+; in[10]     ; Input ; Info     ; Stuck at VCC     ;
+; in[9]      ; Input ; Info     ; Stuck at GND     ;
+; in[8]      ; Input ; Info     ; Stuck at VCC     ;
+; in[2]      ; Input ; Info     ; Stuck at GND     ;
+; in[1]      ; Input ; Info     ; Stuck at VCC     ;
+; in[0]      ; Input ; Info     ; Stuck at GND     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_h:rh|register:r2" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[29..26] ; Input ; Info     ; Stuck at VCC     ;
+; in[22..21] ; Input ; Info     ; Stuck at VCC     ;
+; in[19..17] ; Input ; Info     ; Stuck at VCC     ;
+; in[15..12] ; Input ; Info     ; Stuck at VCC     ;
+; in[9..8]   ; Input ; Info     ; Stuck at VCC     ;
+; in[6..4]   ; Input ; Info     ; Stuck at VCC     ;
+; in[31..30] ; Input ; Info     ; Stuck at GND     ;
+; in[25..23] ; Input ; Info     ; Stuck at GND     ;
+; in[11..10] ; Input ; Info     ; Stuck at GND     ;
+; in[3..2]   ; Input ; Info     ; Stuck at GND     ;
+; in[20]     ; Input ; Info     ; Stuck at GND     ;
+; in[16]     ; Input ; Info     ; Stuck at GND     ;
+; in[7]      ; Input ; Info     ; Stuck at GND     ;
+; in[1]      ; Input ; Info     ; Stuck at VCC     ;
+; in[0]      ; Input ; Info     ; Stuck at GND     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_h:rh|register:r1" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[29..27] ; Input ; Info     ; Stuck at VCC     ;
+; in[25..24] ; Input ; Info     ; Stuck at VCC     ;
+; in[22..21] ; Input ; Info     ; Stuck at VCC     ;
+; in[18..15] ; Input ; Info     ; Stuck at VCC     ;
+; in[11..9]  ; Input ; Info     ; Stuck at VCC     ;
+; in[20..19] ; Input ; Info     ; Stuck at GND     ;
+; in[6..3]   ; Input ; Info     ; Stuck at GND     ;
+; in[31]     ; Input ; Info     ; Stuck at VCC     ;
+; in[30]     ; Input ; Info     ; Stuck at GND     ;
+; in[26]     ; Input ; Info     ; Stuck at GND     ;
+; in[23]     ; Input ; Info     ; Stuck at GND     ;
+; in[14]     ; Input ; Info     ; Stuck at GND     ;
+; in[13]     ; Input ; Info     ; Stuck at VCC     ;
+; in[12]     ; Input ; Info     ; Stuck at GND     ;
+; in[8]      ; Input ; Info     ; Stuck at GND     ;
+; in[7]      ; Input ; Info     ; Stuck at VCC     ;
+; in[2]      ; Input ; Info     ; Stuck at VCC     ;
+; in[1]      ; Input ; Info     ; Stuck at GND     ;
+; in[0]      ; Input ; Info     ; Stuck at VCC     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "reg_h:rh|register:r0" ;
++------------+-------+----------+------------------+
+; Port       ; Type  ; Severity ; Details          ;
++------------+-------+----------+------------------+
+; in[30..29] ; Input ; Info     ; Stuck at VCC     ;
+; in[16..13] ; Input ; Info     ; Stuck at VCC     ;
+; in[10..9]  ; Input ; Info     ; Stuck at VCC     ;
+; in[6..5]   ; Input ; Info     ; Stuck at VCC     ;
+; in[2..0]   ; Input ; Info     ; Stuck at VCC     ;
+; in[24..20] ; Input ; Info     ; Stuck at GND     ;
+; in[18..17] ; Input ; Info     ; Stuck at GND     ;
+; in[12..11] ; Input ; Info     ; Stuck at GND     ;
+; in[8..7]   ; Input ; Info     ; Stuck at GND     ;
+; in[4..3]   ; Input ; Info     ; Stuck at GND     ;
+; in[31]     ; Input ; Info     ; Stuck at GND     ;
+; in[28]     ; Input ; Info     ; Stuck at GND     ;
+; in[27]     ; Input ; Info     ; Stuck at VCC     ;
+; in[26]     ; Input ; Info     ; Stuck at GND     ;
+; in[25]     ; Input ; Info     ; Stuck at VCC     ;
+; in[19]     ; Input ; Info     ; Stuck at VCC     ;
+; clr        ; Input ; Info     ; Stuck at GND     ;
+; clk_en     ; Input ; Info     ; Stuck at GND     ;
++------------+-------+----------+------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "reg_h:rh"                                                                           ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; out  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r15" ;
++--------+-------+----------+--------------------------+
+; Port   ; Type  ; Severity ; Details                  ;
++--------+-------+----------+--------------------------+
+; clr    ; Input ; Info     ; Stuck at GND             ;
+; clk_en ; Input ; Info     ; Stuck at GND             ;
++--------+-------+----------+--------------------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r14" ;
++--------+-------+----------+--------------------------+
+; Port   ; Type  ; Severity ; Details                  ;
++--------+-------+----------+--------------------------+
+; clr    ; Input ; Info     ; Stuck at GND             ;
+; clk_en ; Input ; Info     ; Stuck at GND             ;
++--------+-------+----------+--------------------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r13" ;
++--------+-------+----------+--------------------------+
+; Port   ; Type  ; Severity ; Details                  ;
++--------+-------+----------+--------------------------+
+; clr    ; Input ; Info     ; Stuck at GND             ;
+; clk_en ; Input ; Info     ; Stuck at GND             ;
++--------+-------+----------+--------------------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r12" ;
++--------+-------+----------+--------------------------+
+; Port   ; Type  ; Severity ; Details                  ;
++--------+-------+----------+--------------------------+
+; clr    ; Input ; Info     ; Stuck at GND             ;
+; clk_en ; Input ; Info     ; Stuck at GND             ;
++--------+-------+----------+--------------------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r11" ;
++--------+-------+----------+--------------------------+
+; Port   ; Type  ; Severity ; Details                  ;
++--------+-------+----------+--------------------------+
+; clr    ; Input ; Info     ; Stuck at GND             ;
+; clk_en ; Input ; Info     ; Stuck at GND             ;
++--------+-------+----------+--------------------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r10" ;
++--------+-------+----------+--------------------------+
+; Port   ; Type  ; Severity ; Details                  ;
++--------+-------+----------+--------------------------+
+; clr    ; Input ; Info     ; Stuck at GND             ;
+; clk_en ; Input ; Info     ; Stuck at GND             ;
++--------+-------+----------+--------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r9" ;
++--------+-------+----------+-------------------------+
+; Port   ; Type  ; Severity ; Details                 ;
++--------+-------+----------+-------------------------+
+; clr    ; Input ; Info     ; Stuck at GND            ;
+; clk_en ; Input ; Info     ; Stuck at GND            ;
++--------+-------+----------+-------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r8" ;
++--------+-------+----------+-------------------------+
+; Port   ; Type  ; Severity ; Details                 ;
++--------+-------+----------+-------------------------+
+; clr    ; Input ; Info     ; Stuck at GND            ;
+; clk_en ; Input ; Info     ; Stuck at GND            ;
++--------+-------+----------+-------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r7" ;
++--------+-------+----------+-------------------------+
+; Port   ; Type  ; Severity ; Details                 ;
++--------+-------+----------+-------------------------+
+; clr    ; Input ; Info     ; Stuck at GND            ;
+; clk_en ; Input ; Info     ; Stuck at GND            ;
++--------+-------+----------+-------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r6" ;
++--------+-------+----------+-------------------------+
+; Port   ; Type  ; Severity ; Details                 ;
++--------+-------+----------+-------------------------+
+; clr    ; Input ; Info     ; Stuck at GND            ;
+; clk_en ; Input ; Info     ; Stuck at GND            ;
++--------+-------+----------+-------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r5" ;
++--------+-------+----------+-------------------------+
+; Port   ; Type  ; Severity ; Details                 ;
++--------+-------+----------+-------------------------+
+; clr    ; Input ; Info     ; Stuck at GND            ;
+; clk_en ; Input ; Info     ; Stuck at GND            ;
++--------+-------+----------+-------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r4" ;
++--------+-------+----------+-------------------------+
+; Port   ; Type  ; Severity ; Details                 ;
++--------+-------+----------+-------------------------+
+; clr    ; Input ; Info     ; Stuck at GND            ;
+; clk_en ; Input ; Info     ; Stuck at GND            ;
++--------+-------+----------+-------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r3" ;
++--------+-------+----------+-------------------------+
+; Port   ; Type  ; Severity ; Details                 ;
++--------+-------+----------+-------------------------+
+; clr    ; Input ; Info     ; Stuck at GND            ;
+; clk_en ; Input ; Info     ; Stuck at GND            ;
++--------+-------+----------+-------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r2" ;
++--------+-------+----------+-------------------------+
+; Port   ; Type  ; Severity ; Details                 ;
++--------+-------+----------+-------------------------+
+; clr    ; Input ; Info     ; Stuck at GND            ;
+; clk_en ; Input ; Info     ; Stuck at GND            ;
++--------+-------+----------+-------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r1" ;
++--------+-------+----------+-------------------------+
+; Port   ; Type  ; Severity ; Details                 ;
++--------+-------+----------+-------------------------+
+; clr    ; Input ; Info     ; Stuck at GND            ;
+; clk_en ; Input ; Info     ; Stuck at GND            ;
++--------+-------+----------+-------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd|register:r0" ;
++--------+-------+----------+-------------------------+
+; Port   ; Type  ; Severity ; Details                 ;
++--------+-------+----------+-------------------------+
+; clr    ; Input ; Info     ; Stuck at GND            ;
+; clk_en ; Input ; Info     ; Stuck at GND            ;
++--------+-------+----------+-------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "reg_data:rd"                                                                        ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; out  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Mon Apr 13 12:25:24 2015
+    Info: Processing started: Wed Apr 15 00:25:38 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off bitcoin_miner -c bitcoin_miner
-Info: Found 3 design units, including 3 entities, in source file bitcoin_miner.v
+Info: Found 15 design units, including 15 entities, in source file bitcoin_miner.v
     Info: Found entity 1: bitcoin_miner
-    Info: Found entity 2: rotate_r
-    Info: Found entity 3: usr_mux
+    Info: Found entity 2: compression
+    Info: Found entity 3: reg_h
+    Info: Found entity 4: reg_ints
+    Info: Found entity 5: reg_data
+    Info: Found entity 6: reg_w
+    Info: Found entity 7: reg_k
+    Info: Found entity 8: s0
+    Info: Found entity 9: s1
+    Info: Found entity 10: my_4adder
+    Info: Found entity 11: my_5adder
+    Info: Found entity 12: ch
+    Info: Found entity 13: maj
+    Info: Found entity 14: S1
+    Info: Found entity 15: S0
+Info: Found 7 design units, including 7 entities, in source file adder.v
+    Info: Found entity 1: adder
+    Info: Found entity 2: bit4_adder
+    Info: Found entity 3: bit1_adder
+    Info: Found entity 4: my_3xor
+    Info: Found entity 5: my_rr
+    Info: Found entity 6: my_sra
+    Info: Found entity 7: usr_mux
+Info: Found 4 design units, including 4 entities, in source file regfile.v
+    Info: Found entity 1: regFile
+    Info: Found entity 2: register
+    Info: Found entity 3: dff_a
+    Info: Found entity 4: dff_b
+Warning (10236): Verilog HDL Implicit Net warning at bitcoin_miner.v(12): created implicit net for "clr"
+Warning (10236): Verilog HDL Implicit Net warning at bitcoin_miner.v(12): created implicit net for "clk_en"
+Critical Warning (10846): Verilog HDL Instantiation warning at bitcoin_miner.v(551): instance has no name
 Info: Elaborating entity "bitcoin_miner" for the top level hierarchy
-Info: Elaborating entity "rotate_r" for hierarchy "rotate_r:myr"
-Info: Elaborating entity "usr_mux" for hierarchy "rotate_r:myr|usr_mux:loop1[0].m"
-Info: Implemented 297 device resources after synthesis - the final resource count might be different
-    Info: Implemented 37 input pins
+Warning (10034): Output port "out" at bitcoin_miner.v(5) has no driver
+Info: Elaborating entity "reg_data" for hierarchy "reg_data:rd"
+Info: Elaborating entity "register" for hierarchy "reg_data:rd|register:r0"
+Info: Elaborating entity "dff_b" for hierarchy "reg_data:rd|register:r0|dff_b:loop1[0].diff1"
+Info: Elaborating entity "reg_h" for hierarchy "reg_h:rh"
+Info: Elaborating entity "reg_k" for hierarchy "reg_k:rk"
+Warning (10034): Output port "out[671..640]" at bitcoin_miner.v(394) has no driver
+Warning: Net is missing source, defaulting to GND
+    Warning (12110): Net "clr" is missing source, defaulting to GND
+    Warning (12110): Net "clk_en" is missing source, defaulting to GND
+Warning: Output pins are stuck at VCC or GND
+    Warning (13410): Pin "out[0]" is stuck at GND
+    Warning (13410): Pin "out[1]" is stuck at GND
+    Warning (13410): Pin "out[2]" is stuck at GND
+    Warning (13410): Pin "out[3]" is stuck at GND
+    Warning (13410): Pin "out[4]" is stuck at GND
+    Warning (13410): Pin "out[5]" is stuck at GND
+    Warning (13410): Pin "out[6]" is stuck at GND
+    Warning (13410): Pin "out[7]" is stuck at GND
+    Warning (13410): Pin "out[8]" is stuck at GND
+    Warning (13410): Pin "out[9]" is stuck at GND
+    Warning (13410): Pin "out[10]" is stuck at GND
+    Warning (13410): Pin "out[11]" is stuck at GND
+    Warning (13410): Pin "out[12]" is stuck at GND
+    Warning (13410): Pin "out[13]" is stuck at GND
+    Warning (13410): Pin "out[14]" is stuck at GND
+    Warning (13410): Pin "out[15]" is stuck at GND
+    Warning (13410): Pin "out[16]" is stuck at GND
+    Warning (13410): Pin "out[17]" is stuck at GND
+    Warning (13410): Pin "out[18]" is stuck at GND
+    Warning (13410): Pin "out[19]" is stuck at GND
+    Warning (13410): Pin "out[20]" is stuck at GND
+    Warning (13410): Pin "out[21]" is stuck at GND
+    Warning (13410): Pin "out[22]" is stuck at GND
+    Warning (13410): Pin "out[23]" is stuck at GND
+    Warning (13410): Pin "out[24]" is stuck at GND
+    Warning (13410): Pin "out[25]" is stuck at GND
+    Warning (13410): Pin "out[26]" is stuck at GND
+    Warning (13410): Pin "out[27]" is stuck at GND
+    Warning (13410): Pin "out[28]" is stuck at GND
+    Warning (13410): Pin "out[29]" is stuck at GND
+    Warning (13410): Pin "out[30]" is stuck at GND
+    Warning (13410): Pin "out[31]" is stuck at GND
+Warning: Design contains 353 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "in0[0]"
+    Warning (15610): No output dependent on input pin "in0[1]"
+    Warning (15610): No output dependent on input pin "in0[2]"
+    Warning (15610): No output dependent on input pin "in0[3]"
+    Warning (15610): No output dependent on input pin "in0[4]"
+    Warning (15610): No output dependent on input pin "in0[5]"
+    Warning (15610): No output dependent on input pin "in0[6]"
+    Warning (15610): No output dependent on input pin "in0[7]"
+    Warning (15610): No output dependent on input pin "in0[8]"
+    Warning (15610): No output dependent on input pin "in0[9]"
+    Warning (15610): No output dependent on input pin "in0[10]"
+    Warning (15610): No output dependent on input pin "in0[11]"
+    Warning (15610): No output dependent on input pin "in0[12]"
+    Warning (15610): No output dependent on input pin "in0[13]"
+    Warning (15610): No output dependent on input pin "in0[14]"
+    Warning (15610): No output dependent on input pin "in0[15]"
+    Warning (15610): No output dependent on input pin "in0[16]"
+    Warning (15610): No output dependent on input pin "in0[17]"
+    Warning (15610): No output dependent on input pin "in0[18]"
+    Warning (15610): No output dependent on input pin "in0[19]"
+    Warning (15610): No output dependent on input pin "in0[20]"
+    Warning (15610): No output dependent on input pin "in0[21]"
+    Warning (15610): No output dependent on input pin "in0[22]"
+    Warning (15610): No output dependent on input pin "in0[23]"
+    Warning (15610): No output dependent on input pin "in0[24]"
+    Warning (15610): No output dependent on input pin "in0[25]"
+    Warning (15610): No output dependent on input pin "in0[26]"
+    Warning (15610): No output dependent on input pin "in0[27]"
+    Warning (15610): No output dependent on input pin "in0[28]"
+    Warning (15610): No output dependent on input pin "in0[29]"
+    Warning (15610): No output dependent on input pin "in0[30]"
+    Warning (15610): No output dependent on input pin "in0[31]"
+    Warning (15610): No output dependent on input pin "in1[0]"
+    Warning (15610): No output dependent on input pin "in1[1]"
+    Warning (15610): No output dependent on input pin "in1[2]"
+    Warning (15610): No output dependent on input pin "in1[3]"
+    Warning (15610): No output dependent on input pin "in1[4]"
+    Warning (15610): No output dependent on input pin "in1[5]"
+    Warning (15610): No output dependent on input pin "in1[6]"
+    Warning (15610): No output dependent on input pin "in1[7]"
+    Warning (15610): No output dependent on input pin "in1[8]"
+    Warning (15610): No output dependent on input pin "in1[9]"
+    Warning (15610): No output dependent on input pin "in1[10]"
+    Warning (15610): No output dependent on input pin "in1[11]"
+    Warning (15610): No output dependent on input pin "in1[12]"
+    Warning (15610): No output dependent on input pin "in1[13]"
+    Warning (15610): No output dependent on input pin "in1[14]"
+    Warning (15610): No output dependent on input pin "in1[15]"
+    Warning (15610): No output dependent on input pin "in1[16]"
+    Warning (15610): No output dependent on input pin "in1[17]"
+    Warning (15610): No output dependent on input pin "in1[18]"
+    Warning (15610): No output dependent on input pin "in1[19]"
+    Warning (15610): No output dependent on input pin "in1[20]"
+    Warning (15610): No output dependent on input pin "in1[21]"
+    Warning (15610): No output dependent on input pin "in1[22]"
+    Warning (15610): No output dependent on input pin "in1[23]"
+    Warning (15610): No output dependent on input pin "in1[24]"
+    Warning (15610): No output dependent on input pin "in1[25]"
+    Warning (15610): No output dependent on input pin "in1[26]"
+    Warning (15610): No output dependent on input pin "in1[27]"
+    Warning (15610): No output dependent on input pin "in1[28]"
+    Warning (15610): No output dependent on input pin "in1[29]"
+    Warning (15610): No output dependent on input pin "in1[30]"
+    Warning (15610): No output dependent on input pin "in1[31]"
+    Warning (15610): No output dependent on input pin "in2[0]"
+    Warning (15610): No output dependent on input pin "in2[1]"
+    Warning (15610): No output dependent on input pin "in2[2]"
+    Warning (15610): No output dependent on input pin "in2[3]"
+    Warning (15610): No output dependent on input pin "in2[4]"
+    Warning (15610): No output dependent on input pin "in2[5]"
+    Warning (15610): No output dependent on input pin "in2[6]"
+    Warning (15610): No output dependent on input pin "in2[7]"
+    Warning (15610): No output dependent on input pin "in2[8]"
+    Warning (15610): No output dependent on input pin "in2[9]"
+    Warning (15610): No output dependent on input pin "in2[10]"
+    Warning (15610): No output dependent on input pin "in2[11]"
+    Warning (15610): No output dependent on input pin "in2[12]"
+    Warning (15610): No output dependent on input pin "in2[13]"
+    Warning (15610): No output dependent on input pin "in2[14]"
+    Warning (15610): No output dependent on input pin "in2[15]"
+    Warning (15610): No output dependent on input pin "in2[16]"
+    Warning (15610): No output dependent on input pin "in2[17]"
+    Warning (15610): No output dependent on input pin "in2[18]"
+    Warning (15610): No output dependent on input pin "in2[19]"
+    Warning (15610): No output dependent on input pin "in2[20]"
+    Warning (15610): No output dependent on input pin "in2[21]"
+    Warning (15610): No output dependent on input pin "in2[22]"
+    Warning (15610): No output dependent on input pin "in2[23]"
+    Warning (15610): No output dependent on input pin "in2[24]"
+    Warning (15610): No output dependent on input pin "in2[25]"
+    Warning (15610): No output dependent on input pin "in2[26]"
+    Warning (15610): No output dependent on input pin "in2[27]"
+    Warning (15610): No output dependent on input pin "in2[28]"
+    Warning (15610): No output dependent on input pin "in2[29]"
+    Warning (15610): No output dependent on input pin "in2[30]"
+    Warning (15610): No output dependent on input pin "in2[31]"
+    Warning (15610): No output dependent on input pin "in3[0]"
+    Warning (15610): No output dependent on input pin "in3[1]"
+    Warning (15610): No output dependent on input pin "in3[2]"
+    Warning (15610): No output dependent on input pin "in3[3]"
+    Warning (15610): No output dependent on input pin "in3[4]"
+    Warning (15610): No output dependent on input pin "in3[5]"
+    Warning (15610): No output dependent on input pin "in3[6]"
+    Warning (15610): No output dependent on input pin "in3[7]"
+    Warning (15610): No output dependent on input pin "in3[8]"
+    Warning (15610): No output dependent on input pin "in3[9]"
+    Warning (15610): No output dependent on input pin "in3[10]"
+    Warning (15610): No output dependent on input pin "in3[11]"
+    Warning (15610): No output dependent on input pin "in3[12]"
+    Warning (15610): No output dependent on input pin "in3[13]"
+    Warning (15610): No output dependent on input pin "in3[14]"
+    Warning (15610): No output dependent on input pin "in3[15]"
+    Warning (15610): No output dependent on input pin "in3[16]"
+    Warning (15610): No output dependent on input pin "in3[17]"
+    Warning (15610): No output dependent on input pin "in3[18]"
+    Warning (15610): No output dependent on input pin "in3[19]"
+    Warning (15610): No output dependent on input pin "in3[20]"
+    Warning (15610): No output dependent on input pin "in3[21]"
+    Warning (15610): No output dependent on input pin "in3[22]"
+    Warning (15610): No output dependent on input pin "in3[23]"
+    Warning (15610): No output dependent on input pin "in3[24]"
+    Warning (15610): No output dependent on input pin "in3[25]"
+    Warning (15610): No output dependent on input pin "in3[26]"
+    Warning (15610): No output dependent on input pin "in3[27]"
+    Warning (15610): No output dependent on input pin "in3[28]"
+    Warning (15610): No output dependent on input pin "in3[29]"
+    Warning (15610): No output dependent on input pin "in3[30]"
+    Warning (15610): No output dependent on input pin "in3[31]"
+    Warning (15610): No output dependent on input pin "in4[0]"
+    Warning (15610): No output dependent on input pin "in4[1]"
+    Warning (15610): No output dependent on input pin "in4[2]"
+    Warning (15610): No output dependent on input pin "in4[3]"
+    Warning (15610): No output dependent on input pin "in4[4]"
+    Warning (15610): No output dependent on input pin "in4[5]"
+    Warning (15610): No output dependent on input pin "in4[6]"
+    Warning (15610): No output dependent on input pin "in4[7]"
+    Warning (15610): No output dependent on input pin "in4[8]"
+    Warning (15610): No output dependent on input pin "in4[9]"
+    Warning (15610): No output dependent on input pin "in4[10]"
+    Warning (15610): No output dependent on input pin "in4[11]"
+    Warning (15610): No output dependent on input pin "in4[12]"
+    Warning (15610): No output dependent on input pin "in4[13]"
+    Warning (15610): No output dependent on input pin "in4[14]"
+    Warning (15610): No output dependent on input pin "in4[15]"
+    Warning (15610): No output dependent on input pin "in4[16]"
+    Warning (15610): No output dependent on input pin "in4[17]"
+    Warning (15610): No output dependent on input pin "in4[18]"
+    Warning (15610): No output dependent on input pin "in4[19]"
+    Warning (15610): No output dependent on input pin "in4[20]"
+    Warning (15610): No output dependent on input pin "in4[21]"
+    Warning (15610): No output dependent on input pin "in4[22]"
+    Warning (15610): No output dependent on input pin "in4[23]"
+    Warning (15610): No output dependent on input pin "in4[24]"
+    Warning (15610): No output dependent on input pin "in4[25]"
+    Warning (15610): No output dependent on input pin "in4[26]"
+    Warning (15610): No output dependent on input pin "in4[27]"
+    Warning (15610): No output dependent on input pin "in4[28]"
+    Warning (15610): No output dependent on input pin "in4[29]"
+    Warning (15610): No output dependent on input pin "in4[30]"
+    Warning (15610): No output dependent on input pin "in4[31]"
+    Warning (15610): No output dependent on input pin "in5[0]"
+    Warning (15610): No output dependent on input pin "in5[1]"
+    Warning (15610): No output dependent on input pin "in5[2]"
+    Warning (15610): No output dependent on input pin "in5[3]"
+    Warning (15610): No output dependent on input pin "in5[4]"
+    Warning (15610): No output dependent on input pin "in5[5]"
+    Warning (15610): No output dependent on input pin "in5[6]"
+    Warning (15610): No output dependent on input pin "in5[7]"
+    Warning (15610): No output dependent on input pin "in5[8]"
+    Warning (15610): No output dependent on input pin "in5[9]"
+    Warning (15610): No output dependent on input pin "in5[10]"
+    Warning (15610): No output dependent on input pin "in5[11]"
+    Warning (15610): No output dependent on input pin "in5[12]"
+    Warning (15610): No output dependent on input pin "in5[13]"
+    Warning (15610): No output dependent on input pin "in5[14]"
+    Warning (15610): No output dependent on input pin "in5[15]"
+    Warning (15610): No output dependent on input pin "in5[16]"
+    Warning (15610): No output dependent on input pin "in5[17]"
+    Warning (15610): No output dependent on input pin "in5[18]"
+    Warning (15610): No output dependent on input pin "in5[19]"
+    Warning (15610): No output dependent on input pin "in5[20]"
+    Warning (15610): No output dependent on input pin "in5[21]"
+    Warning (15610): No output dependent on input pin "in5[22]"
+    Warning (15610): No output dependent on input pin "in5[23]"
+    Warning (15610): No output dependent on input pin "in5[24]"
+    Warning (15610): No output dependent on input pin "in5[25]"
+    Warning (15610): No output dependent on input pin "in5[26]"
+    Warning (15610): No output dependent on input pin "in5[27]"
+    Warning (15610): No output dependent on input pin "in5[28]"
+    Warning (15610): No output dependent on input pin "in5[29]"
+    Warning (15610): No output dependent on input pin "in5[30]"
+    Warning (15610): No output dependent on input pin "in5[31]"
+    Warning (15610): No output dependent on input pin "in6[0]"
+    Warning (15610): No output dependent on input pin "in6[1]"
+    Warning (15610): No output dependent on input pin "in6[2]"
+    Warning (15610): No output dependent on input pin "in6[3]"
+    Warning (15610): No output dependent on input pin "in6[4]"
+    Warning (15610): No output dependent on input pin "in6[5]"
+    Warning (15610): No output dependent on input pin "in6[6]"
+    Warning (15610): No output dependent on input pin "in6[7]"
+    Warning (15610): No output dependent on input pin "in6[8]"
+    Warning (15610): No output dependent on input pin "in6[9]"
+    Warning (15610): No output dependent on input pin "in6[10]"
+    Warning (15610): No output dependent on input pin "in6[11]"
+    Warning (15610): No output dependent on input pin "in6[12]"
+    Warning (15610): No output dependent on input pin "in6[13]"
+    Warning (15610): No output dependent on input pin "in6[14]"
+    Warning (15610): No output dependent on input pin "in6[15]"
+    Warning (15610): No output dependent on input pin "in6[16]"
+    Warning (15610): No output dependent on input pin "in6[17]"
+    Warning (15610): No output dependent on input pin "in6[18]"
+    Warning (15610): No output dependent on input pin "in6[19]"
+    Warning (15610): No output dependent on input pin "in6[20]"
+    Warning (15610): No output dependent on input pin "in6[21]"
+    Warning (15610): No output dependent on input pin "in6[22]"
+    Warning (15610): No output dependent on input pin "in6[23]"
+    Warning (15610): No output dependent on input pin "in6[24]"
+    Warning (15610): No output dependent on input pin "in6[25]"
+    Warning (15610): No output dependent on input pin "in6[26]"
+    Warning (15610): No output dependent on input pin "in6[27]"
+    Warning (15610): No output dependent on input pin "in6[28]"
+    Warning (15610): No output dependent on input pin "in6[29]"
+    Warning (15610): No output dependent on input pin "in6[30]"
+    Warning (15610): No output dependent on input pin "in6[31]"
+    Warning (15610): No output dependent on input pin "in7[0]"
+    Warning (15610): No output dependent on input pin "in7[1]"
+    Warning (15610): No output dependent on input pin "in7[2]"
+    Warning (15610): No output dependent on input pin "in7[3]"
+    Warning (15610): No output dependent on input pin "in7[4]"
+    Warning (15610): No output dependent on input pin "in7[5]"
+    Warning (15610): No output dependent on input pin "in7[6]"
+    Warning (15610): No output dependent on input pin "in7[7]"
+    Warning (15610): No output dependent on input pin "in7[8]"
+    Warning (15610): No output dependent on input pin "in7[9]"
+    Warning (15610): No output dependent on input pin "in7[10]"
+    Warning (15610): No output dependent on input pin "in7[11]"
+    Warning (15610): No output dependent on input pin "in7[12]"
+    Warning (15610): No output dependent on input pin "in7[13]"
+    Warning (15610): No output dependent on input pin "in7[14]"
+    Warning (15610): No output dependent on input pin "in7[15]"
+    Warning (15610): No output dependent on input pin "in7[16]"
+    Warning (15610): No output dependent on input pin "in7[17]"
+    Warning (15610): No output dependent on input pin "in7[18]"
+    Warning (15610): No output dependent on input pin "in7[19]"
+    Warning (15610): No output dependent on input pin "in7[20]"
+    Warning (15610): No output dependent on input pin "in7[21]"
+    Warning (15610): No output dependent on input pin "in7[22]"
+    Warning (15610): No output dependent on input pin "in7[23]"
+    Warning (15610): No output dependent on input pin "in7[24]"
+    Warning (15610): No output dependent on input pin "in7[25]"
+    Warning (15610): No output dependent on input pin "in7[26]"
+    Warning (15610): No output dependent on input pin "in7[27]"
+    Warning (15610): No output dependent on input pin "in7[28]"
+    Warning (15610): No output dependent on input pin "in7[29]"
+    Warning (15610): No output dependent on input pin "in7[30]"
+    Warning (15610): No output dependent on input pin "in7[31]"
+    Warning (15610): No output dependent on input pin "in8[0]"
+    Warning (15610): No output dependent on input pin "in8[1]"
+    Warning (15610): No output dependent on input pin "in8[2]"
+    Warning (15610): No output dependent on input pin "in8[3]"
+    Warning (15610): No output dependent on input pin "in8[4]"
+    Warning (15610): No output dependent on input pin "in8[5]"
+    Warning (15610): No output dependent on input pin "in8[6]"
+    Warning (15610): No output dependent on input pin "in8[7]"
+    Warning (15610): No output dependent on input pin "in8[8]"
+    Warning (15610): No output dependent on input pin "in8[9]"
+    Warning (15610): No output dependent on input pin "in8[10]"
+    Warning (15610): No output dependent on input pin "in8[11]"
+    Warning (15610): No output dependent on input pin "in8[12]"
+    Warning (15610): No output dependent on input pin "in8[13]"
+    Warning (15610): No output dependent on input pin "in8[14]"
+    Warning (15610): No output dependent on input pin "in8[15]"
+    Warning (15610): No output dependent on input pin "in8[16]"
+    Warning (15610): No output dependent on input pin "in8[17]"
+    Warning (15610): No output dependent on input pin "in8[18]"
+    Warning (15610): No output dependent on input pin "in8[19]"
+    Warning (15610): No output dependent on input pin "in8[20]"
+    Warning (15610): No output dependent on input pin "in8[21]"
+    Warning (15610): No output dependent on input pin "in8[22]"
+    Warning (15610): No output dependent on input pin "in8[23]"
+    Warning (15610): No output dependent on input pin "in8[24]"
+    Warning (15610): No output dependent on input pin "in8[25]"
+    Warning (15610): No output dependent on input pin "in8[26]"
+    Warning (15610): No output dependent on input pin "in8[27]"
+    Warning (15610): No output dependent on input pin "in8[28]"
+    Warning (15610): No output dependent on input pin "in8[29]"
+    Warning (15610): No output dependent on input pin "in8[30]"
+    Warning (15610): No output dependent on input pin "in8[31]"
+    Warning (15610): No output dependent on input pin "in9[0]"
+    Warning (15610): No output dependent on input pin "in9[1]"
+    Warning (15610): No output dependent on input pin "in9[2]"
+    Warning (15610): No output dependent on input pin "in9[3]"
+    Warning (15610): No output dependent on input pin "in9[4]"
+    Warning (15610): No output dependent on input pin "in9[5]"
+    Warning (15610): No output dependent on input pin "in9[6]"
+    Warning (15610): No output dependent on input pin "in9[7]"
+    Warning (15610): No output dependent on input pin "in9[8]"
+    Warning (15610): No output dependent on input pin "in9[9]"
+    Warning (15610): No output dependent on input pin "in9[10]"
+    Warning (15610): No output dependent on input pin "in9[11]"
+    Warning (15610): No output dependent on input pin "in9[12]"
+    Warning (15610): No output dependent on input pin "in9[13]"
+    Warning (15610): No output dependent on input pin "in9[14]"
+    Warning (15610): No output dependent on input pin "in9[15]"
+    Warning (15610): No output dependent on input pin "in9[16]"
+    Warning (15610): No output dependent on input pin "in9[17]"
+    Warning (15610): No output dependent on input pin "in9[18]"
+    Warning (15610): No output dependent on input pin "in9[19]"
+    Warning (15610): No output dependent on input pin "in9[20]"
+    Warning (15610): No output dependent on input pin "in9[21]"
+    Warning (15610): No output dependent on input pin "in9[22]"
+    Warning (15610): No output dependent on input pin "in9[23]"
+    Warning (15610): No output dependent on input pin "in9[24]"
+    Warning (15610): No output dependent on input pin "in9[25]"
+    Warning (15610): No output dependent on input pin "in9[26]"
+    Warning (15610): No output dependent on input pin "in9[27]"
+    Warning (15610): No output dependent on input pin "in9[28]"
+    Warning (15610): No output dependent on input pin "in9[29]"
+    Warning (15610): No output dependent on input pin "in9[30]"
+    Warning (15610): No output dependent on input pin "in9[31]"
+    Warning (15610): No output dependent on input pin "in10[0]"
+    Warning (15610): No output dependent on input pin "in10[1]"
+    Warning (15610): No output dependent on input pin "in10[2]"
+    Warning (15610): No output dependent on input pin "in10[3]"
+    Warning (15610): No output dependent on input pin "in10[4]"
+    Warning (15610): No output dependent on input pin "in10[5]"
+    Warning (15610): No output dependent on input pin "in10[6]"
+    Warning (15610): No output dependent on input pin "in10[7]"
+    Warning (15610): No output dependent on input pin "in10[8]"
+    Warning (15610): No output dependent on input pin "in10[9]"
+    Warning (15610): No output dependent on input pin "in10[10]"
+    Warning (15610): No output dependent on input pin "in10[11]"
+    Warning (15610): No output dependent on input pin "in10[12]"
+    Warning (15610): No output dependent on input pin "in10[13]"
+    Warning (15610): No output dependent on input pin "in10[14]"
+    Warning (15610): No output dependent on input pin "in10[15]"
+    Warning (15610): No output dependent on input pin "in10[16]"
+    Warning (15610): No output dependent on input pin "in10[17]"
+    Warning (15610): No output dependent on input pin "in10[18]"
+    Warning (15610): No output dependent on input pin "in10[19]"
+    Warning (15610): No output dependent on input pin "in10[20]"
+    Warning (15610): No output dependent on input pin "in10[21]"
+    Warning (15610): No output dependent on input pin "in10[22]"
+    Warning (15610): No output dependent on input pin "in10[23]"
+    Warning (15610): No output dependent on input pin "in10[24]"
+    Warning (15610): No output dependent on input pin "in10[25]"
+    Warning (15610): No output dependent on input pin "in10[26]"
+    Warning (15610): No output dependent on input pin "in10[27]"
+    Warning (15610): No output dependent on input pin "in10[28]"
+    Warning (15610): No output dependent on input pin "in10[29]"
+    Warning (15610): No output dependent on input pin "in10[30]"
+    Warning (15610): No output dependent on input pin "in10[31]"
+    Warning (15610): No output dependent on input pin "clk"
+Info: Implemented 385 device resources after synthesis - the final resource count might be different
+    Info: Implemented 353 input pins
     Info: Implemented 32 output pins
-    Info: Implemented 228 logic cells
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 219 megabytes
-    Info: Processing ended: Mon Apr 13 12:25:25 2015
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:02
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 395 warnings
+    Info: Peak virtual memory: 285 megabytes
+    Info: Processing ended: Wed Apr 15 00:25:45 2015
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:07
 
 
